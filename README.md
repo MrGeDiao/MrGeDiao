@@ -24,11 +24,15 @@
 我不是只从“技术能不能做”出发的人。  
 我更在意的是：**这个问题值不值得解决、能不能更快验证、最后能不能真的被长期使用。**
 
-所以我做产品，也做工程，关注的是完整闭环：
+<p align="center">
+  <img src="https://img.shields.io/badge/Think-Define%20the%20right%20problem-0F172A?style=flat-square&labelColor=E2E8F0&color=0F172A" />
+  <img src="https://img.shields.io/badge/Build-Ship%20useful%20products-0F172A?style=flat-square&labelColor=E0F2FE&color=0F172A" />
+  <img src="https://img.shields.io/badge/Run-Deploy%20and%20iterate-0F172A?style=flat-square&labelColor=ECFDF5&color=0F172A" />
+</p>
 
-| Think | Build | Run |
-| --- | --- | --- |
-| 定义问题、判断价值、设计验证路径 | 用全栈能力把方案做成真正可用的产品 | 把系统部署起来、跑稳定、再持续迭代 |
+<p align="center">
+  <sub>从判断问题，到交付产品，再到系统长期运行。</sub>
+</p>
 
 ## 关注方向
 
@@ -40,9 +44,16 @@
 
 ## 代表作品
 
-### [`shuorenhua`](https://github.com/MrGeDiao/shuorenhua)
+<p align="center">
+  <a href="https://github.com/MrGeDiao/shuorenhua">
+    <img src="assets/img/shuorenhua-icon.png" width="96" alt="shuorenhua icon" />
+  </a>
+</p>
 
-一个中文优先的 AI 输出修正工具（rewrite skill）。
+<p align="center">
+  <a href="https://github.com/MrGeDiao/shuorenhua"><strong>shuorenhua</strong></a><br/>
+  <sub>一个中文优先的 AI 输出修正工具（rewrite skill）</sub>
+</p>
 
 它要解决的，不是“把文字润得更华丽”，而是把 **模板腔、表演感、套话和不自然的 AI 味** 压下去，让表达更像真实的人在当前场景里会说的话。
 
@@ -53,20 +64,15 @@
 - 在处理风格之前，先保护事实、术语、代码和技术上下文
 - 让规则可以被复用、版本化、评测和持续迭代
 
-<p>
-  <a href="https://github.com/MrGeDiao/shuorenhua">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=MrGeDiao&repo=shuorenhua&show_owner=false&theme=transparent&hide_border=true" />
-  </a>
-</p>
-
 ## 正在推进
 
 有两条线我在持续推进，但会保持克制表达，等抽象稳定后再逐步开源：
 
-| 方向 | 现在在推进什么 |
-| --- | --- |
-| **OpenClaw / AI infra & ops** | 部署、接入、稳定性、运维、可维护性，以及系统真正跑起来之后的问题 |
-| **Agent Memory System** | 长期记忆、上下文组织、检索与协作能力，以及多轮任务中的信息延续 |
+- **OpenClaw / AI infra & ops**  
+  部署、接入、稳定性、运维、可维护性，以及系统真正跑起来之后的问题
+
+- **Agent Memory System**  
+  长期记忆、上下文组织、检索与协作能力，以及多轮任务中的信息延续
 
 我不会在这里把未开源内容写成大而空的 roadmap。  
 等边界稳定、能给出可复用形态时，再逐步放出来。
