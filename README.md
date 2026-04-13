@@ -1,4 +1,4 @@
-<!-- Optional: place your custom SVG banner above this block -->
+![](assets/svg/banner-top.svg)
 
 <div align="center">
 
@@ -8,14 +8,13 @@
 <p><em>Think like PM, build like Engineer.</em></p>
 
 <p>
-  <img src="https://img.shields.io/badge/Role-Product%20Minded%20Engineer-111827?style=flat-square&labelColor=F5F5F4" />
-  <img src="https://img.shields.io/badge/Focus-AI%20Tool%20Productization-111827?style=flat-square&labelColor=F5F5F4" />
-  <img src="https://img.shields.io/badge/Systems-Agent%20%26%20Memory-111827?style=flat-square&labelColor=F5F5F4" />
-  <img src="https://img.shields.io/badge/Approach-Full--Stack%20Delivery-111827?style=flat-square&labelColor=F5F5F4" />
+  <img src="https://img.shields.io/badge/Role-Product%20x%20Engineering-111827?style=flat-square&labelColor=F8FAFC" />
+  <img src="https://img.shields.io/badge/Focus-AI%20Tools%20x%20Agent%20Systems-111827?style=flat-square&labelColor=F8FAFC" />
+  <img src="https://img.shields.io/badge/Method-Insight%20to%20Shipping-111827?style=flat-square&labelColor=F8FAFC" />
 </p>
 
 <p>
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=18&duration=2800&pause=1200&color=475569&center=true&vCenter=true&width=720&lines=From+insight+to+shipping;AI+tools+%C2%B7+Agent+systems+%C2%B7+Memory;Think+like+PM%2C+build+like+Engineer." />
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=18&duration=3000&pause=1200&color=475569&center=true&vCenter=true&width=760&lines=Turn+ambiguity+into+working+systems;AI+tools+%C2%B7+Agent+workflows+%C2%B7+Memory;Think+like+PM%2C+build+like+Engineer." />
 </p>
 
 </div>
