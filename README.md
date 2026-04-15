@@ -45,8 +45,8 @@
 ## 📊 GitHub at a Glance
 
 <p align="center">
-  <a href="https://github.com/MrGeDiao"><img height="165" src="https://github-readme-stats.vercel.app/api?username=MrGeDiao&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=F8FAFC&title_color=0F172A&text_color=334155&icon_color=0EA5E9&cache_seconds=1800" alt="stats"/></a>
-  <a href="https://github.com/MrGeDiao"><img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MrGeDiao&layout=compact&hide_border=true&bg_color=F8FAFC&title_color=0F172A&text_color=334155&cache_seconds=1800" alt="top langs"/></a>
+  <a href="https://github.com/MrGeDiao"><img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=MrGeDiao&theme=default" alt="stats"/></a>
+  <a href="https://github.com/MrGeDiao"><img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=MrGeDiao&theme=default" alt="top langs"/></a>
 </p>
 
 <p align="center">
