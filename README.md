@@ -1,7 +1,6 @@
 ![](assets/svg/banner-top.svg)
 
 <p align="center">
-  <a href="https://github.com/MrGeDiao?tab=followers"><img src="https://img.shields.io/github/followers/MrGeDiao?style=flat-square&logo=github&logoColor=white&labelColor=0F172A&color=0EA5E9" alt="followers"/></a>
   <a href="https://github.com/MrGeDiao?tab=repositories"><img src="https://img.shields.io/github/stars/MrGeDiao?affiliations=OWNER&style=flat-square&logo=github&logoColor=white&labelColor=0F172A&color=0EA5E9" alt="stars"/></a>
   <img src="https://img.shields.io/badge/status-building-0EA5E9?style=flat-square&labelColor=0F172A" alt="status"/>
   <img src="https://img.shields.io/badge/focus-AI%20tools%20%C2%B7%20agents%20%C2%B7%20memory-0EA5E9?style=flat-square&labelColor=0F172A" alt="focus"/>
@@ -46,8 +45,8 @@
 ## 📊 GitHub at a Glance
 
 <p align="center">
-  <a href="https://github.com/MrGeDiao"><img height="165" src="https://github-readme-stats.vercel.app/api?username=MrGeDiao&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=F8FAFC&title_color=0F172A&text_color=334155&icon_color=0EA5E9" alt="stats"/></a>
-  <a href="https://github.com/MrGeDiao"><img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MrGeDiao&layout=compact&hide_border=true&bg_color=F8FAFC&title_color=0F172A&text_color=334155" alt="top langs"/></a>
+  <a href="https://github.com/MrGeDiao"><img height="165" src="https://github-readme-stats.vercel.app/api?username=MrGeDiao&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=F8FAFC&title_color=0F172A&text_color=334155&icon_color=0EA5E9&cache_seconds=1800" alt="stats"/></a>
+  <a href="https://github.com/MrGeDiao"><img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MrGeDiao&layout=compact&hide_border=true&bg_color=F8FAFC&title_color=0F172A&text_color=334155&cache_seconds=1800" alt="top langs"/></a>
 </p>
 
 <p align="center">
@@ -125,7 +124,7 @@
 ## 📮 Contact
 
 <p>
-  <a href="mailto:loveredsign@gmail.com"><img src="https://img.shields.io/badge/loveredsign%40gmail.com-0F172A?style=flat-square&logo=gmail&logoColor=white&labelColor=0F172A" alt="email"/></a>
+  <a href="mailto:zcoeus@protonmail.com"><img src="https://img.shields.io/badge/zcoeus%40protonmail.com-0F172A?style=flat-square&logo=protonmail&logoColor=white&labelColor=0F172A" alt="email"/></a>
 </p>
 
 ---
