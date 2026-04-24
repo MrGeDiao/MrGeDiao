@@ -79,24 +79,13 @@
 
 ## 🚧 正在推进
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### OpenClaw · AI infra & ops
+**OpenClaw · AI infra & ops**
 
 模型接入、代理、部署、监控、运维，以及系统真的跑起来之后才会暴露的问题。
 
-</td>
-<td width="50%" valign="top">
-
-### Agent Memory System
+**Agent Memory System**
 
 长任务里的上下文组织、记忆检索、状态延续，以及多轮协作时的信息损耗。
-
-</td>
-</tr>
-</table>
 
 这些方向我还在日常使用里继续打磨。等边界更清楚、失败场景也能讲明白之后，再慢慢整理成可复用的项目或文档。
 
