@@ -3,14 +3,14 @@
 <p align="center">
   <a href="https://github.com/MrGeDiao?tab=repositories"><img src="https://img.shields.io/github/stars/MrGeDiao?affiliations=OWNER&style=flat-square&logo=github&logoColor=white&labelColor=0F172A&color=0EA5E9" alt="stars"/></a>
   <img src="https://img.shields.io/badge/status-building-0EA5E9?style=flat-square&labelColor=0F172A" alt="status"/>
-  <img src="https://img.shields.io/badge/focus-AI%20tools%20%C2%B7%20agents%20%C2%B7%20memory-0EA5E9?style=flat-square&labelColor=0F172A" alt="focus"/>
+  <img src="https://img.shields.io/badge/focus-AI%20tools%20%C2%B7%20agents%20%C2%B7%20evidence-0EA5E9?style=flat-square&labelColor=0F172A" alt="focus"/>
   <img src="https://visitor-badge.laobi.icu/badge?page_id=MrGeDiao.MrGeDiao&left_color=0F172A&right_color=0EA5E9" alt="visitors"/>
 </p>
 
 <div align="center">
 
 <p>
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=18&duration=3000&pause=1200&color=0F172A&center=true&vCenter=true&width=760&lines=Turn+ambiguity+into+working+systems;AI+tools+%C2%B7+Agent+workflows+%C2%B7+Memory;Think+like+PM%2C+build+like+Engineer." alt="typing"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=18&duration=3000&pause=1200&color=0F172A&center=true&vCenter=true&width=760&lines=Turn+ambiguity+into+working+systems;AI+tools+%C2%B7+Evidence+rules+%C2%B7+Agent+workflows;Think+like+PM%2C+build+like+Engineer." alt="typing"/>
 </p>
 
 </div>
@@ -32,6 +32,7 @@
 - **AI 工具产品化** · 工具要能进入真实工作流，而不是只在 demo 里好看
 - **Agent 系统** · 任务怎么拆、上下文怎么传、失败之后怎么恢复
 - **Memory System** · 什么值得记、怎么检索、什么时候应该更新或忘掉
+- **证据优先的 AI 阅读** · 读不到不补，没核验不写，把材料边界说清楚
 - **全栈落地** · 从产品判断到前后端实现、接入、部署和日常维护
 - **中文 AI 体验** · 让 AI 输出更贴近中文语境，少一点模板腔和翻译腔
 
@@ -54,7 +55,9 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=MrGeDiao&bg_color=F8FAFC&color=0F172A&line=0EA5E9&point=0F172A&area=true&hide_border=true" alt="activity graph"/>
 </p>
 
-## ⭐ 代表作品 · shuorenhua
+## ⭐ 公开作品
+
+这些项目都围绕同一件事：把 AI 的能力收束成真实场景里可复用、可检查、能长期维护的工作流。
 
 <table>
 <tr>
@@ -67,6 +70,12 @@
 
 它处理的是一个很日常的问题：AI 写出来的内容经常语法没错，但不像真实的人在那个场景里会说的话。
 
+<p>
+  <a href="https://github.com/MrGeDiao/shuorenhua/stargazers"><img src="https://img.shields.io/github/stars/MrGeDiao/shuorenhua?style=flat-square&logo=github&logoColor=white&labelColor=0F172A&color=0EA5E9" alt="shuorenhua stars"/></a>
+  <a href="https://github.com/MrGeDiao/shuorenhua/releases"><img src="https://img.shields.io/github/v/release/MrGeDiao/shuorenhua?style=flat-square&label=release&labelColor=0F172A&color=0EA5E9" alt="shuorenhua release"/></a>
+  <a href="https://github.com/MrGeDiao/shuorenhua/blob/main/LICENSE"><img src="https://img.shields.io/github/license/MrGeDiao/shuorenhua?style=flat-square&labelColor=0F172A&color=64748B" alt="shuorenhua license"/></a>
+</p>
+
 </td>
 </tr>
 </table>
@@ -77,17 +86,42 @@
 | **方法独特在哪** | 先保护事实、术语、代码和引用，再处理风格 |
 | **为什么代表我的做事方式** | 从真实使用里的不适感开始，把模糊感受拆成可以执行、评测和迭代的规则 |
 
-## 🚧 正在推进
+<table>
+<tr>
+<td width="120" align="center" valign="top">
+<a href="https://github.com/MrGeDiao/paper-reading-zh"><strong>paper<br/>reading<br/>zh</strong></a>
+</td>
+<td valign="top">
 
-**OpenClaw · AI infra & ops**
+**[paper-reading-zh](https://github.com/MrGeDiao/paper-reading-zh)** · 中文论文精读的证据规则包
 
-模型接入、代理、部署、监控、运维，以及系统真的跑起来之后才会暴露的问题。
+它解决的是 AI 读论文时最容易滑过去的问题：读不到的地方不硬补，没核验的外部事实不装作已经确认，多篇论文比较前先对齐口径。
 
-**Agent Memory System**
+<p>
+  <a href="https://github.com/MrGeDiao/paper-reading-zh/stargazers"><img src="https://img.shields.io/github/stars/MrGeDiao/paper-reading-zh?style=flat-square&logo=github&logoColor=white&labelColor=0F172A&color=0EA5E9" alt="paper-reading-zh stars"/></a>
+  <a href="https://github.com/MrGeDiao/paper-reading-zh/commits/main"><img src="https://img.shields.io/github/last-commit/MrGeDiao/paper-reading-zh?style=flat-square&label=last%20commit&labelColor=0F172A&color=0EA5E9" alt="paper-reading-zh last commit"/></a>
+  <a href="https://github.com/MrGeDiao/paper-reading-zh/blob/main/LICENSE"><img src="https://img.shields.io/github/license/MrGeDiao/paper-reading-zh?style=flat-square&labelColor=0F172A&color=64748B" alt="paper-reading-zh license"/></a>
+</p>
+
+</td>
+</tr>
+</table>
+
+| | |
+|:--|:--|
+| **解决什么问题** | 让 AI 论文阅读少一点顺滑猜测，多一点材料边界和证据锚点 |
+| **方法独特在哪** | venue、年份、代码链接、实验数字和跨论文比较都先看是否可核验 |
+| **为什么代表我的做事方式** | 把“别编”这种抽象要求拆成 Agent Skill 和 Web Prompt Kit 都能执行的规则 |
+
+## 🚧 正在沉淀
+
+**Agent 协作与记忆**
 
 长任务里的上下文组织、记忆检索、状态延续，以及多轮协作时的信息损耗。
 
-这些方向我还在日常使用里继续打磨。等边界更清楚、失败场景也能讲明白之后，再慢慢整理成可复用的项目或文档。
+**AI 工具的评测与发布**
+
+把经验从“感觉好一点”推进到可以复查的样本、边界、版本说明和失败案例。还在验证的东西先留在日常使用里打磨，等边界和失败场景都讲得清楚，再整理成公开项目或文档。
 
 ## ⚙️ 做事方式
 
@@ -106,8 +140,8 @@
 ## 🌟 Star History
 
 <p align="center">
-  <a href="https://star-history.com/#MrGeDiao/shuorenhua&Date">
-    <img src="https://api.star-history.com/svg?repos=MrGeDiao/shuorenhua&type=Date" width="680" alt="star history"/>
+  <a href="https://star-history.com/#MrGeDiao/shuorenhua&MrGeDiao/paper-reading-zh&Date">
+    <img src="https://api.star-history.com/svg?repos=MrGeDiao/shuorenhua,MrGeDiao/paper-reading-zh&type=Date" width="680" alt="star history"/>
   </a>
 </p>
 
