@@ -73,7 +73,7 @@
 <p>
   <a href="https://github.com/MrGeDiao/shuorenhua/stargazers"><img src="https://img.shields.io/github/stars/MrGeDiao/shuorenhua?style=flat-square&logo=github&logoColor=white&labelColor=0F172A&color=0EA5E9" alt="shuorenhua stars"/></a>
   <a href="https://github.com/MrGeDiao/shuorenhua/releases"><img src="https://img.shields.io/github/v/release/MrGeDiao/shuorenhua?style=flat-square&label=release&labelColor=0F172A&color=0EA5E9" alt="shuorenhua release"/></a>
-  <a href="https://github.com/MrGeDiao/shuorenhua/blob/main/LICENSE"><img src="https://img.shields.io/github/license/MrGeDiao/shuorenhua?style=flat-square&labelColor=0F172A&color=64748B" alt="shuorenhua license"/></a>
+  <a href="https://github.com/MrGeDiao/shuorenhua/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-64748B?style=flat-square&labelColor=0F172A" alt="shuorenhua license"/></a>
 </p>
 
 </td>
@@ -88,8 +88,8 @@
 
 <table>
 <tr>
-<td width="120" align="center" valign="top">
-<a href="https://github.com/MrGeDiao/paper-reading-zh"><strong>paper<br/>reading<br/>zh</strong></a>
+<td width="120" align="center" valign="middle">
+<a href="https://github.com/MrGeDiao/paper-reading-zh"><img src="assets/svg/paper-reading-zh-icon.svg" width="96" alt="paper-reading-zh"/></a>
 </td>
 <td valign="top">
 
@@ -100,7 +100,7 @@
 <p>
   <a href="https://github.com/MrGeDiao/paper-reading-zh/stargazers"><img src="https://img.shields.io/github/stars/MrGeDiao/paper-reading-zh?style=flat-square&logo=github&logoColor=white&labelColor=0F172A&color=0EA5E9" alt="paper-reading-zh stars"/></a>
   <a href="https://github.com/MrGeDiao/paper-reading-zh/commits/main"><img src="https://img.shields.io/github/last-commit/MrGeDiao/paper-reading-zh?style=flat-square&label=last%20commit&labelColor=0F172A&color=0EA5E9" alt="paper-reading-zh last commit"/></a>
-  <a href="https://github.com/MrGeDiao/paper-reading-zh/blob/main/LICENSE"><img src="https://img.shields.io/github/license/MrGeDiao/paper-reading-zh?style=flat-square&labelColor=0F172A&color=64748B" alt="paper-reading-zh license"/></a>
+  <a href="https://github.com/MrGeDiao/paper-reading-zh/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-64748B?style=flat-square&labelColor=0F172A" alt="paper-reading-zh license"/></a>
 </p>
 
 </td>
