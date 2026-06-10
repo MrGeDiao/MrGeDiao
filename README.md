@@ -1,156 +1,77 @@
-![](assets/svg/banner-top.svg)
+![MrGeDiao · 产品经理出身的全栈工程师](assets/svg/banner-top.svg)
 
-<p align="center">
-  <a href="https://github.com/MrGeDiao?tab=repositories"><img src="https://img.shields.io/github/stars/MrGeDiao?affiliations=OWNER&style=flat-square&logo=github&logoColor=white&labelColor=0F172A&color=0EA5E9" alt="stars"/></a>
-  <img src="https://img.shields.io/badge/status-building-0EA5E9?style=flat-square&labelColor=0F172A" alt="status"/>
-  <img src="https://img.shields.io/badge/focus-AI%20tools%20%C2%B7%20agents%20%C2%B7%20evidence-0EA5E9?style=flat-square&labelColor=0F172A" alt="focus"/>
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=MrGeDiao.MrGeDiao&left_color=0F172A&right_color=0EA5E9" alt="visitors"/>
-</p>
+产品经理出身，现在习惯把想法自己做出来：写前端也写后端，接模型、部署上线，出了问题自己修。
 
-<div align="center">
+动手之前先判断这件事值不值得做。值得做，就先做一个最小能用的版本，放进真实工作流里看哪里会断，再决定要不要加复杂度。部署、回滚和之后的日常维护，也都算在「做完」里。
 
-<p>
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=18&duration=3000&pause=1200&color=0F172A&center=true&vCenter=true&width=760&lines=Turn+ambiguity+into+working+systems;AI+tools+%C2%B7+Evidence+rules+%C2%B7+Agent+workflows;Think+like+PM%2C+build+like+Engineer." alt="typing"/>
-</p>
-
-</div>
-
----
-
-我做产品出身，后来越来越多地把想法自己写出来、接上、部署好，再看它在真实使用里哪里会断。
-
-比起先列技术栈，我更关心一个问题：这件事是不是真的值得做。值得做，再把它拆小，尽快做出能验证的版本。
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Think-Define%20the%20right%20problem-0F172A?style=flat-square&labelColor=E2E8F0" />
-  <img src="https://img.shields.io/badge/Build-Ship%20useful%20products-0F172A?style=flat-square&labelColor=E0F2FE" />
-  <img src="https://img.shields.io/badge/Run-Deploy%20and%20iterate-0F172A?style=flat-square&labelColor=ECFDF5" />
-</p>
-
-## 关注方向
-
-- **AI 工具产品化** · 工具要能进入真实工作流，而不是只在 demo 里好看
-- **Agent 系统** · 任务怎么拆、上下文怎么传、失败之后怎么恢复
-- **Memory System** · 什么值得记、怎么检索、什么时候应该更新或忘掉
-- **证据优先的 AI 阅读** · 读不到不补，没核验不写，把材料边界说清楚
-- **全栈落地** · 从产品判断到前后端实现、接入、部署和日常维护
-- **中文 AI 体验** · 让 AI 输出更贴近中文语境，少一点模板腔和翻译腔
-
-## 🧰 Tech Stack
-
-| 维度 | 具体 |
-|:--|:--|
-| **Languages** | ![Python](https://img.shields.io/badge/-Python-0F172A?style=flat-square&logo=python&logoColor=white) ![TypeScript](https://img.shields.io/badge/-TypeScript-0F172A?style=flat-square&logo=typescript&logoColor=white) ![Go](https://img.shields.io/badge/-Go-0F172A?style=flat-square&logo=go&logoColor=white) ![Rust](https://img.shields.io/badge/-Rust-0F172A?style=flat-square&logo=rust&logoColor=white) ![Bash](https://img.shields.io/badge/-Bash-0F172A?style=flat-square&logo=gnubash&logoColor=white) ![SQL](https://img.shields.io/badge/-SQL-0F172A?style=flat-square&logo=postgresql&logoColor=white) |
-| **AI & LLM** | ![Claude](https://img.shields.io/badge/-Claude-0EA5E9?style=flat-square&logo=anthropic&logoColor=white) ![OpenAI](https://img.shields.io/badge/-OpenAI-0EA5E9?style=flat-square&logo=openai&logoColor=white) ![LangChain](https://img.shields.io/badge/-LangChain-0EA5E9?style=flat-square&logo=langchain&logoColor=white) ![LlamaIndex](https://img.shields.io/badge/-LlamaIndex-0EA5E9?style=flat-square&logo=llamaindex&logoColor=white) ![Vector DB](https://img.shields.io/badge/-Vector%20DB-0EA5E9?style=flat-square&logo=databricks&logoColor=white) ![MCP](https://img.shields.io/badge/-MCP-0EA5E9?style=flat-square&logoColor=white) |
-| **Infra & Ops** | ![Docker](https://img.shields.io/badge/-Docker-64748B?style=flat-square&logo=docker&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-64748B?style=flat-square&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/-Redis-64748B?style=flat-square&logo=redis&logoColor=white) ![SQLite](https://img.shields.io/badge/-SQLite-64748B?style=flat-square&logo=sqlite&logoColor=white) ![Linux](https://img.shields.io/badge/-Linux-64748B?style=flat-square&logo=linux&logoColor=white) ![Nginx](https://img.shields.io/badge/-Nginx-64748B?style=flat-square&logo=nginx&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/-GitHub%20Actions-64748B?style=flat-square&logo=githubactions&logoColor=white) |
-
-## 📊 GitHub at a Glance
-
-<p align="center">
-  <a href="https://github.com/MrGeDiao"><img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=MrGeDiao&theme=default" alt="stats"/></a>
-  <a href="https://github.com/MrGeDiao"><img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=MrGeDiao&theme=default" alt="top langs"/></a>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=MrGeDiao&bg_color=F8FAFC&color=0F172A&line=0EA5E9&point=0F172A&area=true&hide_border=true" alt="activity graph"/>
-</p>
-
-## ⭐ 公开作品
-
-这些项目都围绕同一件事：把 AI 的能力收束成真实场景里可复用、可检查、能长期维护的工作流。
+## 项目
 
 <table>
 <tr>
-<td width="120" align="center" valign="top">
-<a href="https://github.com/MrGeDiao/shuorenhua"><img src="assets/img/shuorenhua-icon.png" width="96" alt="shuorenhua"/></a>
+<td width="110" align="center" valign="top">
+<a href="https://github.com/MrGeDiao/shuorenhua"><img src="assets/img/shuorenhua-icon.png" width="88" alt="shuorenhua"/></a>
 </td>
 <td valign="top">
 
-**[shuorenhua](https://github.com/MrGeDiao/shuorenhua)** · 中文优先的 AI 输出修正工具（rewrite skill）
+**[shuorenhua · 说人话](https://github.com/MrGeDiao/shuorenhua)** · ★ 395+
 
-它处理的是一个很日常的问题：AI 写出来的内容经常语法没错，但不像真实的人在那个场景里会说的话。
+中文优先的「去 AI 味」改写 skill，装进 Codex、Claude Code、Cursor 或 ChatGPT 就能用。
+
+AI 写出来的内容经常语法全对，但不像人在那个场景下会说的话。它先把事实、术语、代码和引用保护起来，再处理模板腔和表演感——这个顺序不能反。
 
 <p>
-  <a href="https://github.com/MrGeDiao/shuorenhua/stargazers"><img src="https://img.shields.io/github/stars/MrGeDiao/shuorenhua?style=flat-square&logo=github&logoColor=white&labelColor=0F172A&color=0EA5E9" alt="shuorenhua stars"/></a>
-  <a href="https://github.com/MrGeDiao/shuorenhua/releases"><img src="https://img.shields.io/github/v/release/MrGeDiao/shuorenhua?style=flat-square&label=release&labelColor=0F172A&color=0EA5E9" alt="shuorenhua release"/></a>
-  <a href="https://github.com/MrGeDiao/shuorenhua/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-64748B?style=flat-square&labelColor=0F172A" alt="shuorenhua license"/></a>
+  <a href="https://github.com/MrGeDiao/shuorenhua/stargazers"><img src="https://img.shields.io/github/stars/MrGeDiao/shuorenhua?style=flat-square&logo=github&logoColor=white&labelColor=0F172A&color=0EA5E9" alt="stars"/></a>
+  <a href="https://github.com/MrGeDiao/shuorenhua/releases"><img src="https://img.shields.io/github/v/release/MrGeDiao/shuorenhua?style=flat-square&label=release&labelColor=0F172A&color=0EA5E9" alt="release"/></a>
+  <a href="https://github.com/MrGeDiao/shuorenhua/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-64748B?style=flat-square&labelColor=0F172A" alt="license"/></a>
 </p>
 
 </td>
 </tr>
 </table>
 
-| | |
-|:--|:--|
-| **解决什么问题** | 把 AI 生成内容里的模板腔、表演感和翻译腔压下去 |
-| **方法独特在哪** | 先保护事实、术语、代码和引用，再处理风格 |
-| **为什么代表我的做事方式** | 从真实使用里的不适感开始，把模糊感受拆成可以执行、评测和迭代的规则 |
-
 <table>
 <tr>
-<td width="120" align="center" valign="middle">
-<a href="https://github.com/MrGeDiao/paper-reading-zh"><img src="assets/svg/paper-reading-zh-icon.svg" width="96" alt="paper-reading-zh"/></a>
+<td width="110" align="center" valign="top">
+<a href="https://github.com/MrGeDiao/paper-reading-zh"><img src="assets/svg/paper-reading-zh-icon.svg" width="88" alt="paper-reading-zh"/></a>
 </td>
 <td valign="top">
 
-**[paper-reading-zh](https://github.com/MrGeDiao/paper-reading-zh)** · 中文论文精读的证据规则包
+**[paper-reading-zh](https://github.com/MrGeDiao/paper-reading-zh)**
 
-它解决的是 AI 读论文时最容易滑过去的问题：读不到的地方不硬补，没核验的外部事实不装作已经确认，多篇论文比较前先对齐口径。
+AI 精读中文论文的证据规则包，Agent Skill 和 Web Prompt Kit 两种入口，覆盖 Codex、Claude Code、Claude Project 和 ChatGPT Project。
+
+针对的是 AI 读论文最容易滑过去的地方：读不到的内容不硬补，没核验的外部事实不写成已确认，多篇论文比较之前先确认各家的指标和定义是同一套。
 
 <p>
-  <a href="https://github.com/MrGeDiao/paper-reading-zh/stargazers"><img src="https://img.shields.io/github/stars/MrGeDiao/paper-reading-zh?style=flat-square&logo=github&logoColor=white&labelColor=0F172A&color=0EA5E9" alt="paper-reading-zh stars"/></a>
-  <a href="https://github.com/MrGeDiao/paper-reading-zh/commits/main"><img src="https://img.shields.io/github/last-commit/MrGeDiao/paper-reading-zh?style=flat-square&label=last%20commit&labelColor=0F172A&color=0EA5E9" alt="paper-reading-zh last commit"/></a>
-  <a href="https://github.com/MrGeDiao/paper-reading-zh/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-64748B?style=flat-square&labelColor=0F172A" alt="paper-reading-zh license"/></a>
+  <a href="https://github.com/MrGeDiao/paper-reading-zh/stargazers"><img src="https://img.shields.io/github/stars/MrGeDiao/paper-reading-zh?style=flat-square&logo=github&logoColor=white&labelColor=0F172A&color=0EA5E9" alt="stars"/></a>
+  <a href="https://github.com/MrGeDiao/paper-reading-zh/commits/main"><img src="https://img.shields.io/github/last-commit/MrGeDiao/paper-reading-zh?style=flat-square&label=last%20commit&labelColor=0F172A&color=0EA5E9" alt="last commit"/></a>
+  <a href="https://github.com/MrGeDiao/paper-reading-zh/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-64748B?style=flat-square&labelColor=0F172A" alt="license"/></a>
 </p>
 
 </td>
 </tr>
 </table>
 
-| | |
-|:--|:--|
-| **解决什么问题** | 让 AI 论文阅读少一点顺滑猜测，多一点材料边界和证据锚点 |
-| **方法独特在哪** | venue、年份、代码链接、实验数字和跨论文比较都先看是否可核验 |
-| **为什么代表我的做事方式** | 把“别编”这种抽象要求拆成 Agent Skill 和 Web Prompt Kit 都能执行的规则 |
+## 技术栈
 
-## 🚧 正在沉淀
+- 语言：Python · TypeScript · Bash · SQL
+- AI / LLM：Claude API · OpenAI API · MCP
+- 基础设施：Docker · PostgreSQL · SQLite · Linux · Nginx · GitHub Actions
 
-**Agent 协作与记忆**
+## 正在做
 
-长任务里的上下文组织、记忆检索、状态延续，以及多轮协作时的信息损耗。
-
-**AI 工具的评测与发布**
-
-把经验从“感觉好一点”推进到可以复查的样本、边界、版本说明和失败案例。还在验证的东西先留在日常使用里打磨，等边界和失败场景都讲得清楚，再整理成公开项目或文档。
-
-## ⚙️ 做事方式
-
-- 先判断问题值不值得做，再决定怎么做
-- 先做最小可用版本，再扩展复杂度
-- 先保住事实和语境，再处理风格和体验
-- 交付之后继续看部署、回滚、维护和长期稳定性
-
-## ✨ 一句原则
-
-> 把模糊想法变成清晰方案，再把清晰方案做成能交付、能运行的东西。
->
-> Product sense decides **what to build**.
-> Engineering decides **whether it can actually ship**.
-
-## 🌟 Star History
+- Agent 的记忆和长任务：什么值得记、怎么检索、多轮协作时信息怎么不丢。
+- AI 工具的评测和发布：把「感觉好一点」变成可以复查的样本、边界和失败案例，讲清楚边界再发布。
 
 <p align="center">
   <a href="https://star-history.com/#MrGeDiao/shuorenhua&MrGeDiao/paper-reading-zh&Date">
-    <img src="https://api.star-history.com/svg?repos=MrGeDiao/shuorenhua,MrGeDiao/paper-reading-zh&type=Date" width="680" alt="star history"/>
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=MrGeDiao/shuorenhua,MrGeDiao/paper-reading-zh&type=Date&theme=dark"/>
+      <img src="https://api.star-history.com/svg?repos=MrGeDiao/shuorenhua,MrGeDiao/paper-reading-zh&type=Date" width="640" alt="Star History"/>
+    </picture>
   </a>
 </p>
 
-## 📮 Contact
+## 联系
 
-<p>
-  <a href="mailto:zcoeus@protonmail.com"><img src="https://img.shields.io/badge/zcoeus%40protonmail.com-0F172A?style=flat-square&logo=protonmail&logoColor=white&labelColor=0F172A" alt="email"/></a>
-</p>
-
----
-
-![](assets/svg/banner-bottom.svg)
+[zcoeus@protonmail.com](mailto:zcoeus@protonmail.com)
