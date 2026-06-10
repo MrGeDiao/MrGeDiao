@@ -6,11 +6,11 @@
 
 ## 项目
 
-[![shuorenhua · 说人话 — 中文优先的「去 AI 味」改写 skill · ★ 395+ · MIT](assets/svg/card-shuorenhua.svg)](https://github.com/MrGeDiao/shuorenhua)
+[![shuorenhua · 说人话 — 中文优先的「去 AI 味」改写 skill · ★ Star · MIT](assets/svg/card-shuorenhua.svg)](https://github.com/MrGeDiao/shuorenhua)
 
 AI 写出来的内容经常语法全对，但不像人在那个场景下会说的话。它先把事实、术语、代码和引用保护起来，再处理模板腔和表演感——这个顺序不能反。装进 Codex、Claude Code、Cursor 或 ChatGPT 就能用。
 
-[![paper-reading-zh — AI 精读中文论文的证据规则包 · ★ 57 · MIT](assets/svg/card-paper-reading-zh.svg)](https://github.com/MrGeDiao/paper-reading-zh)
+[![paper-reading-zh — AI 精读中文论文的证据规则包 · ★ Star · MIT](assets/svg/card-paper-reading-zh.svg)](https://github.com/MrGeDiao/paper-reading-zh)
 
 针对的是 AI 读论文最容易滑过去的地方：读不到的内容不硬补，没核验的外部事实不写成已确认，多篇论文比较之前先确认各家的指标和定义是同一套。Agent Skill 和 Web Prompt Kit 两种入口，覆盖 Codex、Claude Code、Claude Project 和 ChatGPT Project。
 
@@ -23,19 +23,12 @@ AI 写出来的内容经常语法全对，但不像人在那个场景下会说�
 - Agent 的记忆和长任务：什么值得记、怎么检索、多轮协作时信息怎么不丢。
 - AI 工具的评测和发布：把「感觉好一点」变成可以复查的样本、边界和失败案例，讲清楚边界再发布。
 
-![过去一个月的提交活动](https://github-readme-activity-graph.vercel.app/graph?username=MrGeDiao&bg_color=0F172A&color=94A3B8&line=0EA5E9&point=38BDF8&area=true&area_color=0EA5E9&hide_border=true&radius=24)
 
-<p align="center">
-  <a href="https://star-history.com/#MrGeDiao/shuorenhua&MrGeDiao/paper-reading-zh&Date">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=MrGeDiao/shuorenhua,MrGeDiao/paper-reading-zh&type=Date&theme=dark"/>
-      <img src="https://api.star-history.com/svg?repos=MrGeDiao/shuorenhua,MrGeDiao/paper-reading-zh&type=Date" width="640" alt="Star History"/>
-    </picture>
-  </a>
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=MrGeDiao&amp;bg_color=0d1117&amp;color=8b949e&amp;line=38bdf8&amp;point=38bdf8&amp;area=true&amp;area_color=38bdf8&amp;hide_border=true&amp;radius=8" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=MrGeDiao&amp;bg_color=ffffff&amp;color=57606a&amp;line=0369a1&amp;point=0369a1&amp;area=true&amp;area_color=0369a1&amp;hide_border=true&amp;radius=8" alt="过去一个月的提交活动" />
+</picture>
 
-## 联系
+[Star History](https://star-history.com/#MrGeDiao/shuorenhua&MrGeDiao/paper-reading-zh&Date)
 
-[zcoeus@protonmail.com](mailto:zcoeus@protonmail.com)
-
-![MrGeDiao](assets/svg/banner-bottom.svg)
+[![MrGeDiao Signature](assets/svg/footer-signature.svg)](mailto:zcoeus@protonmail.com)
