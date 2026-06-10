@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="170" viewBox="0 0 1200 170" role="img" aria-label="paper-reading-zh 项目卡：AI 精读中文论文的证据规则包，57 个 star，MIT 协议">
+  <defs>
+    <linearGradient id="cardPaper-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#0B1120"/>
+    </linearGradient>
+    <radialGradient id="cardPaper-glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#0EA5E9" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#0EA5E9" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="cardPaper-dotFade" cx="0.42" cy="0.5" r="0.75">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.65" stop-color="#ffffff" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="cardPaper-dotMask">
+      <rect x="0" y="0" width="1200" height="170" fill="url(#cardPaper-dotFade)"/>
+    </mask>
+    <pattern id="cardPaper-dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.1" fill="#334155"/>
+    </pattern>
+    <clipPath id="cardPaper-cardClip">
+      <rect x="0" y="0" width="1200" height="170" rx="24"/>
+    </clipPath>
+  </defs>
+
+  <!-- 卡片底 -->
+  <g clip-path="url(#cardPaper-cardClip)">
+    <rect x="0" y="0" width="1200" height="170" fill="url(#cardPaper-bg)"/>
+    <rect x="0" y="0" width="1200" height="170" fill="url(#cardPaper-dots)" opacity="0.2" mask="url(#cardPaper-dotMask)"/>
+    <ellipse cx="140" cy="86" rx="260" ry="150" fill="url(#cardPaper-glow)"/>
+  </g>
+
+  <!-- 项目 icon：白描边文档 + accent 文字行 -->
+  <rect x="84" y="33" width="104" height="104" rx="23" fill="#0B1120"/>
+  <g stroke-linejoin="round" stroke-linecap="round">
+    <path d="M108 50h39l17 17v53h-56z" fill="#0F172A" stroke="#F8FAFC" stroke-width="3.5"/>
+    <path d="M147 50v17h17" fill="none" stroke="#F8FAFC" stroke-width="3.5"/>
+    <path d="M120 82h32M120 96h32M120 110h20" fill="none" stroke="#0EA5E9" stroke-width="4"/>
+  </g>
+  <rect x="84.5" y="33.5" width="103" height="103" rx="22.5" fill="none" stroke="#334155" stroke-width="1"/>
+
+  <!-- 标题区 -->
+  <text x="212" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="30" font-weight="700" fill="#F8FAFC">paper-reading-zh</text>
+  <text x="212" y="112" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#94A3B8">AI 精读中文论文的证据规则包</text>
+
+  <!-- 右侧信息列 -->
+  <path id="cardPaper-star" transform="translate(1074,66)" fill="#38BDF8" d="M 0,-10 L 2.64,-3.64 L 9.51,-3.09 L 4.28,1.39 L 5.88,8.09 L 0,4.5 L -5.88,8.09 L -4.28,1.39 L -9.51,-3.09 L -2.64,-3.64 Z"/>
+  <text x="1116" y="73" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="600" fill="#F8FAFC">57</text>
+
+  <rect x="1062" y="93" width="54" height="26" rx="6" fill="none" stroke="#334155" stroke-width="1"/>
+  <text x="1090" y="110.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="0.1em" fill="#64748B">MIT</text>
+
+  <!-- 卡片描边（白底收边） -->
+  <rect x="0.5" y="0.5" width="1199" height="169" rx="23.5" fill="none" stroke="#1E293B" stroke-width="1"/>
+</svg>
