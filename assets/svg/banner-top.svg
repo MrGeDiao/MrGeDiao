@@ -1,41 +1,34 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-label="MrGeDiao · 产品经理出身 · AI 工具作者 · 中文优先">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="MrGeDiao · 把想法做成产品，把产品说成人话">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0B1120"/>
-      <stop offset="1" stop-color="#0F172A"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#0EA5E9"/>
-      <stop offset="1" stop-color="#38BDF8"/>
-    </linearGradient>
-    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
-      <circle cx="1.4" cy="1.4" r="1.4" fill="#1E293B"/>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0 H0 V30" fill="none" stroke="#D93B2B" stroke-width="0.8" opacity="0.10"/>
     </pattern>
     <linearGradient id="fadeR" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0.4" stop-color="#ffffff" stop-opacity="0"/>
-      <stop offset="1" stop-color="#ffffff" stop-opacity="0.8"/>
+      <stop offset="0.42" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="1"/>
     </linearGradient>
-    <mask id="dotMask">
-      <rect x="0" y="0" width="1200" height="280" fill="url(#fadeR)"/>
+    <mask id="gridMask">
+      <rect x="0" y="0" width="1200" height="300" fill="url(#fadeR)"/>
     </mask>
   </defs>
 
-  <rect x="1" y="1" width="1198" height="278" rx="20" fill="url(#bg)" stroke="#1E293B" stroke-width="1.5"/>
-  <rect x="1" y="1" width="1198" height="278" rx="20" fill="url(#dots)" mask="url(#dotMask)"/>
+  <rect x="1" y="1" width="1198" height="298" rx="18" fill="#FCFBF9" stroke="#E8E4DD" stroke-width="1.5"/>
+  <rect x="1" y="1" width="1198" height="298" rx="18" fill="url(#grid)" mask="url(#gridMask)"/>
 
-  <text x="64" y="112" font-family="-apple-system, 'SF Pro Display', 'PingFang SC', 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="48" font-weight="700" letter-spacing="0.5" fill="#F8FAFC">MrGeDiao</text>
-  <rect x="66" y="132" width="78" height="4" rx="2" fill="url(#accent)">
-    <animate attributeName="opacity" values="1;0.55;1" dur="5s" repeatCount="indefinite"/>
-  </rect>
-  <text x="64" y="176" font-family="-apple-system, 'SF Pro Text', 'PingFang SC', 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="19" fill="#94A3B8">产品经理出身 · AI 工具作者 · 中文优先</text>
+  <text x="64" y="102" font-family="-apple-system, 'SF Pro Display', 'PingFang SC', 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="48" font-weight="700" letter-spacing="0.5" fill="#1F2328">MrGeDiao</text>
+  <rect x="66" y="122" width="78" height="4" rx="2" fill="#D93B2B"/>
 
-  <g font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', 'Cascadia Code', monospace" font-size="15" fill="#38BDF8">
-    <text x="64" y="226" opacity="1">$ 先保住事实，再拆掉腔调 ▌<animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.30;0.34;0.96;1" dur="10.5s" repeatCount="indefinite"/></text>
-    <text x="64" y="226" opacity="0">$ 未核验不补，读不到不编 ▌<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.34;0.38;0.62;0.66;1" dur="10.5s" repeatCount="indefinite"/></text>
-    <text x="64" y="226" opacity="0">$ 改完，敢直接发 ▌<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.66;0.70;0.95;1" dur="10.5s" repeatCount="indefinite"/></text>
+  <text x="64" y="170" font-family="'Songti SC', STSong, SimSun, 'Noto Serif SC', 'Noto Serif CJK SC', serif" font-size="24" font-weight="700" fill="#3A4048">把想法做成产品，把产品说成人话。</text>
+
+  <text x="64" y="206" font-family="-apple-system, 'SF Pro Text', 'PingFang SC', 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="14.5" fill="#8A939E">产品经理出身 · AI 工具作者 · 中文优先</text>
+
+  <g font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', 'Cascadia Code', monospace" font-size="14" fill="#57606A">
+    <text x="64" y="250" opacity="1">$ 先保住事实，再拆掉腔调 <tspan fill="#D93B2B">▌</tspan><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.30;0.34;0.96;1" dur="10.5s" repeatCount="indefinite"/></text>
+    <text x="64" y="250" opacity="0">$ 未核验不补，读不到不编 <tspan fill="#D93B2B">▌</tspan><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.34;0.38;0.62;0.66;1" dur="10.5s" repeatCount="indefinite"/></text>
+    <text x="64" y="250" opacity="0">$ 改完，敢直接发 <tspan fill="#D93B2B">▌</tspan><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.66;0.70;0.95;1" dur="10.5s" repeatCount="indefinite"/></text>
   </g>
 
-  <g transform="translate(1044,94) rotate(-4, 46, 46)">
+  <g transform="translate(1044,104) rotate(-4, 46, 46)">
     <rect width="92" height="92" rx="10" fill="#D93B2B"/>
     <rect x="7" y="7" width="78" height="78" rx="7" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.5"/>
     <text x="46" y="44" text-anchor="middle" font-family="'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="30" font-weight="700" fill="#FFFFFF">格</text>
