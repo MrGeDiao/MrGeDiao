@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="176" viewBox="0 0 1200 176" role="img" aria-label="说人话 / shuorenhua —— 中文优先的「去 AI 味」改写 skill">
+  <rect x="1" y="1" width="1198" height="174" rx="14" fill="#FFFFFF" stroke="#D8DEE4" stroke-width="1.5"/>
+
+  <rect x="40" y="46" width="84" height="84" rx="16" fill="#F6F8FA" stroke="#E4E7EB" stroke-width="1.5"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2">
+    <rect x="61" y="70" width="42" height="31" rx="9" stroke="#1F2328"/>
+    <path d="M74 101 L70 111 L83 101" stroke="#1F2328"/>
+    <line x1="70" y1="82" x2="94" y2="82" stroke="#D93B2B"/>
+    <line x1="70" y1="90" x2="86" y2="90" stroke="#1F2328" opacity="0.45"/>
+  </g>
+
+  <rect x="156" y="58" width="10" height="10" rx="2" fill="#D93B2B"/>
+  <text x="176" y="82" font-family="-apple-system, 'SF Pro Display', 'PingFang SC', 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="30" font-weight="700" fill="#1F2328">说人话</text>
+  <text x="282" y="82" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', monospace" font-size="16" fill="#6E7781">shuorenhua</text>
+
+  <text x="176" y="118" font-family="-apple-system, 'SF Pro Text', 'PingFang SC', 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="17" fill="#57606A">中文优先的「去 AI 味」改写 skill —— 先保住事实，再拆掉腔调</text>
+
+  <g font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', monospace" font-size="13" text-anchor="middle">
+    <rect x="176" y="132" width="52" height="28" rx="14" fill="#F6F8FA" stroke="#E4E7EB"/>
+    <text x="202" y="150" fill="#57606A">MIT</text>
+    <rect x="238" y="132" width="68" height="28" rx="14" fill="#F6F8FA" stroke="#E4E7EB"/>
+    <text x="272" y="150" fill="#57606A">Codex</text>
+    <rect x="316" y="132" width="116" height="28" rx="14" fill="#F6F8FA" stroke="#E4E7EB"/>
+    <text x="374" y="150" fill="#57606A">Claude Code</text>
+    <rect x="442" y="132" width="76" height="28" rx="14" fill="#F6F8FA" stroke="#E4E7EB"/>
+    <text x="480" y="150" fill="#57606A">Cursor</text>
+    <rect x="528" y="132" width="86" height="28" rx="14" fill="#F6F8FA" stroke="#E4E7EB"/>
+    <text x="571" y="150" fill="#57606A">ChatGPT</text>
+  </g>
+
+  <text x="1124" y="68" font-family="-apple-system, sans-serif" font-size="22" fill="#D93B2B">→</text>
+</svg>

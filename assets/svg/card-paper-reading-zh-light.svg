@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="176" viewBox="0 0 1200 176" role="img" aria-label="paper-reading-zh —— AI 精读中文论文的证据规则包">
+  <rect x="1" y="1" width="1198" height="174" rx="14" fill="#FFFFFF" stroke="#D8DEE4" stroke-width="1.5"/>
+
+  <rect x="40" y="46" width="84" height="84" rx="16" fill="#F6F8FA" stroke="#E4E7EB" stroke-width="1.5"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2">
+    <rect x="64" y="66" width="36" height="46" rx="5" stroke="#1F2328"/>
+    <line x1="72" y1="79" x2="92" y2="79" stroke="#1F2328" opacity="0.45"/>
+    <line x1="72" y1="88" x2="92" y2="88" stroke="#1F2328" opacity="0.45"/>
+    <line x1="72" y1="97" x2="84" y2="97" stroke="#D93B2B"/>
+  </g>
+
+  <rect x="156" y="58" width="10" height="10" rx="2" fill="#D93B2B"/>
+  <text x="176" y="82" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', monospace" font-size="27" font-weight="700" fill="#1F2328">paper-reading-zh</text>
+  <text x="472" y="82" font-family="-apple-system, 'SF Pro Text', 'PingFang SC', 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="16" fill="#6E7781">中文论文精读</text>
+
+  <text x="176" y="118" font-family="-apple-system, 'SF Pro Text', 'PingFang SC', 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="17" fill="#57606A">AI 精读中文论文的证据规则包 —— 未核验不补，读不到不编</text>
+
+  <g font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', monospace" font-size="13" text-anchor="middle">
+    <rect x="176" y="132" width="52" height="28" rx="14" fill="#F6F8FA" stroke="#E4E7EB"/>
+    <text x="202" y="150" fill="#57606A">MIT</text>
+    <rect x="238" y="132" width="68" height="28" rx="14" fill="#F6F8FA" stroke="#E4E7EB"/>
+    <text x="272" y="150" fill="#57606A">Codex</text>
+    <rect x="316" y="132" width="116" height="28" rx="14" fill="#F6F8FA" stroke="#E4E7EB"/>
+    <text x="374" y="150" fill="#57606A">Claude Code</text>
+    <rect x="442" y="132" width="128" height="28" rx="14" fill="#F6F8FA" stroke="#E4E7EB"/>
+    <text x="506" y="150" fill="#57606A">Claude Project</text>
+    <rect x="580" y="132" width="140" height="28" rx="14" fill="#F6F8FA" stroke="#E4E7EB"/>
+    <text x="650" y="150" fill="#57606A">ChatGPT Project</text>
+  </g>
+
+  <text x="1124" y="68" font-family="-apple-system, sans-serif" font-size="22" fill="#D93B2B">→</text>
+</svg>
