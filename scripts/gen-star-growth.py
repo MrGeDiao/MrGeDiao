@@ -1,0 +1,125 @@
+#!/usr/bin/env python3
+"""重绘 assets/svg/star-growth.svg：拉取 shuorenhua 最新 stargazer 时间戳，按纸面版设计系统生成累计增长曲线。
+
+用法：python3 scripts/gen-star-growth.py   （依赖已登录的 gh CLI）
+"""
+import json
+import math
+import subprocess
+from collections import Counter
+from datetime import date
+from pathlib import Path
+
+REPO = "MrGeDiao/shuorenhua"
+OPEN_DATE = date(2026, 3, 22)  # 开源日
+EVENTS = [(date(2026, 6, 18), "v1.9 · Eval Harness")]  # 曲线上的发版标注
+
+# 纸面版 tokens
+PANEL, BORDER = "#FCFBF9", "#E8E4DD"
+INK, MUTED = "#1F2328", "#8A939E"
+GRID, BASELINE = "#ECE9E3", "#E0DCD4"
+ACCENT = "#D93B2B"
+
+X0, X1, Y0, PLOT_H = 88, 1150, 308, 224  # 绘图区
+SANS = "-apple-system, 'SF Pro Text', 'PingFang SC', 'Segoe UI', 'Microsoft YaHei', sans-serif"
+MONO = "ui-monospace, 'SF Mono', 'JetBrains Mono', monospace"
+
+
+def fetch_star_dates():
+    dates, page = [], 1
+    while True:
+        out = subprocess.run(
+            ["gh", "api", f"repos/{REPO}/stargazers?per_page=100&page={page}",
+             "-H", "Accept: application/vnd.github.star+json"],
+            capture_output=True, text=True, check=True).stdout
+        batch = json.loads(out)
+        if not batch:
+            return dates
+        dates += [date.fromisoformat(item["starred_at"][:10]) for item in batch]
+        page += 1
+
+
+def main():
+    star_dates = fetch_star_dates()
+    today = date.today()
+    span = (today - OPEN_DATE).days
+    per_day = Counter(star_dates)
+
+    def xs(d): return X0 + (d - OPEN_DATE).days / span * (X1 - X0)
+
+    total = len(star_dates)
+    ymax = math.ceil(total * 1.06 / 20) * 20
+
+    def ys(v): return Y0 - v * PLOT_H / ymax
+
+    cum, pts, cum_at = 0, [(xs(OPEN_DATE), ys(0))], {}
+    for d in sorted(per_day):
+        cum += per_day[d]
+        pts.append((xs(d), ys(cum)))
+        cum_at[d] = cum
+    line = "M" + " L".join(f"{x:.1f},{y:.1f}" for x, y in pts)
+    area = line + f" L{X1},{Y0} L{X0},{Y0} Z"
+    end_x, end_y = pts[-1]
+
+    gridlines, ylabels = [], []
+    for v in range(200, ymax, 200):
+        y = ys(v)
+        gridlines.append(f'<line x1="{X0}" y1="{y:.1f}" x2="{X1}" y2="{y:.1f}"/>')
+        ylabels.append(f'<text x="{X0-10}" y="{y+4:.1f}">{v}</text>')
+
+    xticks = [f'<text x="{X0}" y="332" text-anchor="start">{OPEN_DATE.month}·{OPEN_DATE.day}</text>']
+    m = OPEN_DATE.month % 12 + 1
+    year = OPEN_DATE.year + (OPEN_DATE.month == 12)
+    while date(year, m, 1) <= today:
+        xticks.append(f'<text x="{xs(date(year, m, 1)):.1f}" y="332">{m}月</text>')
+        year, m = (year + 1, 1) if m == 12 else (year, m + 1)
+
+    events_svg = []
+    for ev_date, label in EVENTS:
+        cum_v = max((c for d, c in cum_at.items() if d <= ev_date), default=0)
+        ex, ey = xs(ev_date), ys(cum_v)
+        events_svg.append(
+            f'<line x1="{ex:.1f}" y1="{ey+6:.1f}" x2="{ex:.1f}" y2="{Y0}" stroke="{BASELINE}" stroke-width="1" stroke-dasharray="2 5"/>\n'
+            f'  <circle cx="{ex:.1f}" cy="{ey:.1f}" r="3.5" fill="{INK}" stroke="{PANEL}" stroke-width="2"/>\n'
+            f'  <text x="{ex-10:.1f}" y="{ey-15:.1f}" font-family="{SANS}" font-size="12" fill="{MUTED}" text-anchor="end">{label}</text>')
+
+    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="说人话 star 增长曲线：开源 {span} 天，0 到 {total} stars，数据截至 {today}">
+  <defs>
+    <linearGradient id="areaGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="{ACCENT}" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="{ACCENT}" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="1" y="1" width="1198" height="358" rx="16" fill="{PANEL}" stroke="{BORDER}" stroke-width="1.5"/>
+
+  <text x="32" y="42" font-family="{SANS}" font-size="16" font-weight="600" fill="{INK}">「说人话」star 增长</text>
+  <text x="32" y="64" font-family="{MONO}" font-size="12.5" fill="{MUTED}">开源 {span} 天 · 0 → {total} · 截至 {today}</text>
+
+  <g stroke="{GRID}" stroke-width="1">
+    {''.join(gridlines)}
+    <line x1="{X0}" y1="{Y0}" x2="{X1}" y2="{Y0}" stroke="{BASELINE}" stroke-width="1.5"/>
+  </g>
+  <g font-family="{MONO}" font-size="11.5" fill="{MUTED}" text-anchor="end">
+    {''.join(ylabels)}
+  </g>
+  <g font-family="{MONO}" font-size="11.5" fill="{MUTED}" text-anchor="middle">
+    {''.join(xticks)}
+  </g>
+
+  <path d="{area}" fill="url(#areaGrad)"/>
+  <path d="{line}" fill="none" stroke="{ACCENT}" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  {''.join(events_svg)}
+
+  <circle cx="{end_x:.1f}" cy="{end_y:.1f}" r="4.5" fill="{ACCENT}" stroke="{PANEL}" stroke-width="2"/>
+  <text x="{end_x-12:.1f}" y="{end_y-10:.1f}" font-family="{SANS}" font-size="15" font-weight="700" fill="{INK}" text-anchor="end">{total} ★</text>
+</svg>
+'''
+    out = Path(__file__).resolve().parent.parent / "assets" / "svg" / "star-growth.svg"
+    out.write_text(svg, encoding="utf-8")
+    print(f"written {out} — {total} stars, {span} days, ymax {ymax}")
+
+
+if __name__ == "__main__":
+    main()
