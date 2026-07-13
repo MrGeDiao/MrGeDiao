@@ -1,38 +1,75 @@
-![MrGeDiao · 把想法做成产品，把产品说成人话](assets/svg/banner-top.svg)
+![MrGeDiao · 把模糊的问题做成能验证的工具](assets/svg/banner-top.svg)
 
-产品经理出身，后来发现最快的验证方式是自己动手：前后端一起写，模型自己接，上线自己盯，坏了自己修。
+产品经理出身。现在遇到值得做的问题，我习惯自己把它走完：需求和边界自己写清楚，代码自己写，模型自己接，上线自己盯，坏了自己修。
 
-两条原则：动手前先想清楚值不值得做；发布前先在自己的工作流里用到不别扭。所以这页上的东西不多，但每一个我都天天在用。
+我最近做的东西大多围着同一类麻烦：模型说的话能不能信，多 agent 合作时谁来负责，记忆和自动化怎样不变成黑盒。公开仓库是整理好给别人用的工具；私有仓库更像我的实验场和生产系统。
 
-## 作品
+## 公开作品 <sub>PUBLIC WORK</sub>
 
-[![说人话 / shuorenhua —— 中文优先的「去 AI 味」改写 skill](assets/svg/card-shuorenhua.svg)](https://github.com/MrGeDiao/shuorenhua)
+[![公开作品 01：说人话 / shuorenhua](assets/svg/card-shuorenhua.svg)](https://github.com/MrGeDiao/shuorenhua)
 
-[![Stars](https://img.shields.io/github/stars/MrGeDiao/shuorenhua?style=flat-square&logo=github&logoColor=c9d1d9&label=stars&labelColor=24292f&color=d93b2b)](https://github.com/MrGeDiao/shuorenhua/stargazers)&nbsp;[![Release](https://img.shields.io/github/v/release/MrGeDiao/shuorenhua?style=flat-square&label=release&labelColor=24292f&color=57606a)](https://github.com/MrGeDiao/shuorenhua/releases)
+[![Stars](https://img.shields.io/github/stars/MrGeDiao/shuorenhua?style=flat-square&logo=github&logoColor=66707c&label=stars&labelColor=f7f8f5&color=246bfd)](https://github.com/MrGeDiao/shuorenhua/stargazers)&nbsp;[![Release](https://img.shields.io/github/v/release/MrGeDiao/shuorenhua?style=flat-square&label=release&labelColor=f7f8f5&color=66707c)](https://github.com/MrGeDiao/shuorenhua/releases)
 
-AI 写的中文，语法全对，就是不像人话。它的规矩是先保住事实、术语和代码，再动腔调——顺序不能反。Codex、Claude Code、Cursor、ChatGPT，装上就能用。
+`说人话` 从我自己受不了的 AI 腔开始。它的规矩是先保住事实、术语、代码和责任主体，再按 README、release note、issue 回复、日常聊天这些场景收拾套话和语域错位——顺序不能反。有没有用不靠感觉判断：benchmark、真实样本，再加上它在 `x-pipeline` 里长期处理真实候选稿的结果。
 
-[![paper-reading-zh —— AI 精读中文论文的证据规则包](assets/svg/card-paper-reading-zh.svg)](https://github.com/MrGeDiao/paper-reading-zh)
+[![公开作品 02：paper-reading-zh](assets/svg/card-paper-reading-zh.svg)](https://github.com/MrGeDiao/paper-reading-zh)
 
-[![Stars](https://img.shields.io/github/stars/MrGeDiao/paper-reading-zh?style=flat-square&logo=github&logoColor=c9d1d9&label=stars&labelColor=24292f&color=d93b2b)](https://github.com/MrGeDiao/paper-reading-zh/stargazers)&nbsp;[![Release](https://img.shields.io/github/v/release/MrGeDiao/paper-reading-zh?style=flat-square&include_prereleases&label=release&labelColor=24292f&color=57606a)](https://github.com/MrGeDiao/paper-reading-zh/releases)
+[![Stars](https://img.shields.io/github/stars/MrGeDiao/paper-reading-zh?style=flat-square&logo=github&logoColor=66707c&label=stars&labelColor=f7f8f5&color=246bfd)](https://github.com/MrGeDiao/paper-reading-zh/stargazers)&nbsp;[![Release](https://img.shields.io/github/v/release/MrGeDiao/paper-reading-zh?style=flat-square&include_prereleases&label=release&labelColor=f7f8f5&color=66707c)](https://github.com/MrGeDiao/paper-reading-zh/releases)
 
-AI 读论文爱不懂装懂：读不到的硬补，没核验的写成定论。这个规则包管的就是这个——未核验不补，读不到不编，跨论文比较先对齐口径。覆盖 Codex、Claude Code、Claude Project 和 ChatGPT Project。
+`paper-reading-zh` 管的是 AI 读论文时不懂装懂的毛病。规矩很简单：读不到的不编，没核验的不写成定论；每条结论都要能回到原文、图表或可核对的来源，跨论文比较先把对象、指标、样本范围和实验条件对齐。覆盖 Codex、Claude Code、Claude Project 和 ChatGPT Project。
 
-[![「说人话」star 增长：开源 103 天，0 → 604](assets/svg/star-growth.svg)](https://github.com/MrGeDiao/shuorenhua/stargazers)
+[![「说人话」star 增长曲线](assets/svg/star-growth.svg)](https://github.com/MrGeDiao/shuorenhua/stargazers)
 
-## 工具箱
+## 工具箱与工作流 <sub>TOOLS & WORKFLOW</sub>
 
-[![技术栈](https://skillicons.dev/icons?i=python,ts,bash,react,nodejs,docker,postgres,sqlite,linux,nginx,githubactions&theme=light)](https://github.com/MrGeDiao)
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="https://skillicons.dev/icons?i=python,ts,bash,react,nodejs,docker,postgres,sqlite,linux,nginx,githubactions&theme=light" alt="技术栈">
+      <br>
+      <sub>Claude Code · Codex · OpenClaw · Claude API / OpenAI API · MCP</sub>
+    </td>
+    <td width="50%" valign="top">
+      <img src="assets/svg/workflow.svg" alt="AI 工作流：需求澄清、信息获取、结构化理解、构建与验证、复盘迭代">
+    </td>
+  </tr>
+</table>
 
-AI 工具链：Claude Code · Codex · OpenClaw · Claude API / OpenAI API · MCP
+## 私有研究项目 <sub>PRIVATE WORK IN PROGRESS</sub>
 
-## 正在做
+下面这些仓库暂时没有公开。这里写的是已经做出来的部分，不是路线图，也不是预告。
 
-- Agent 的记忆和长任务：什么值得记、怎么找回来、多轮协作怎么不丢信息。
-- AI 工具的评测：把「感觉好一点」变成能复查的样本、边界和失败案例。
+![私有研究项目：santi、model-forensics、DreamMem、x-pipeline、OpenClaw engineering](assets/svg/lab-notes.svg)
 
-![提交活动](https://github-readme-activity-graph.vercel.app/graph?username=MrGeDiao&bg_color=fcfbf9&color=8a939e&line=d93b2b&point=d93b2b&area=true&area_color=d93b2b&hide_border=true&radius=16&custom_title=%E6%8F%90%E4%BA%A4%E6%B4%BB%E5%8A%A8)
+<details>
+<summary>展开看项目细节</summary>
+
+### `santi` / 三体
+
+我不喜欢几个 agent 同时改一堆文件，最后没人真正负责。`santi` 把角色固定下来：Codex 是唯一写入方；Claude Code 负责设计和主审；另一个模型只查风险。每个 pass 都会核对实际使用的模型，最后仍然要靠测试、repro、lint 和源码证据放行。
+
+### `model-forensics`
+
+它回答一个很朴素的问题：你点名的模型，真的在干活吗？工具会读取本地 CLI 会话工件和代理日志，按 E0–E4 给证据分级，再生成带源文件哈希的回执，方便第三方复核。它只检测和报告，不自动替用户切模型；行为证据属于统计判断时，会明确给出置信度。
+
+### `DreamMem`
+
+静态规则文件容易越写越长，托管记忆服务又很难解释为什么召回了某条内容。`DreamMem` 用 Markdown / YAML 保存事实，SQLite 只做可重建的索引；Dreaming 管线先产出候选记忆，经过 review 才会进入长期记忆。召回时混合向量、FTS5、时间和可信度，不把所有对话自动永久保存。
+
+### `x-pipeline`
+
+这是我自己的 X 候选稿流水线：从 X List 选题，经过选题闸、三条起草路线、批量评审、去 AI 味和确定性校验，再把候选稿送到飞书。人工会标记“已发”或“废”，系统每周汇总发布率和废稿原因。它永远不会自动发推，发布决定和动作始终在人这一侧。
+
+### `OpenClaw engineering`
+
+这个仓库维护我自己的 OpenClaw 生产环境。配置、脚本、workspace、升级记录和 runbook 都以仓库为准；升级先生成可审查的 staging，再事务式激活，失败会自动回滚。线上变更要先写清影响、回滚和验收，secret 与仓库内容分开管理。
+
+</details>
+
+## 最近提交 <sub>RECENT ACTIVITY</sub>
+
+![最近 30 天 GitHub 活动](assets/svg/recent-activity.svg)
 
 ---
 
-[![Email](https://img.shields.io/badge/Email-zcoeus%40protonmail.com-D93B2B?style=flat-square&labelColor=24292f&logo=protonmail&logoColor=c9d1d9)](mailto:zcoeus@protonmail.com)
+[![Email](https://img.shields.io/badge/Email-zcoeus%40protonmail.com-246BFD?style=flat-square&labelColor=f7f8f5&logo=protonmail&logoColor=66707c)](mailto:zcoeus@protonmail.com)

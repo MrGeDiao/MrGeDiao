@@ -1,36 +1,34 @@
 # AGENTS.md — MrGeDiao/MrGeDiao
 
-GitHub 个人首页仓库：`README.md` + `assets/svg/` 定制资源。当前视觉系统是 2026-07-03 定稿的「纸面版」。
+GitHub 个人首页仓库：`README.md` + `assets/svg/` 定制资源。当前视觉系统是 2026-07-13 定稿的「Signal Index / 独立研究所」。
 
 ## 设计系统（改动必须遵守）
 
-- 面板底 `#FCFBF9`，描边 `#E8E4DD`，内嵌块 `#F6F4F0` / 描边 `#EBE7E0`
-- 文字：`#1F2328` 主 / `#57606A` 次 / `#8A939E` 弱
-- 全页唯一强调色：朱砂 `#D93B2B`——印章、标题方块、增长曲线、活动图、Email 徽章同一支红，不引入第二个强调色
-- 宋体栈（`'Songti SC', STSong, SimSun, 'Noto Serif SC', serif`）只用于 banner 主文案那一句，其余系统 sans + `ui-monospace`
-- 动效只用 SVG SMIL，静帧必须完整成立；当前仅 banner 三句格言轮播 + 光标
-- 已试过并明确排除的方向，不要回退：深色面板贴浅色页面、霓虹发光与流动渐变、第三方 stats 卡 / 奖杯 / 贡献蛇、浅深两套资产、纯极简无视觉
+设计系统单源在 `DESIGN.md`：tokens、字体、布局、图标来源、动效规则和 Avoid 清单都以它为准。改视觉前先读 `DESIGN.md`，本文件不重复维护设计值。
 
 ## 页面结构
 
-banner → 自述两段 → 作品（两张卡 + shields 动态徽章 + 描述）→ star 增长曲线 → 工具箱（skillicons + AI 工具链一行）→ 正在做 + 提交活动图 → Email 徽章
+banner → 自述两段 → 公开作品（两条研究记录 + shields）→ star 增长曲线 → 工具箱与 AI 工作流 → 私有研究项目矩阵 → 近 30 天活动与统计 → Email
 
 ## 维护点
 
-- `assets/svg/star-growth.svg` 是静态快照。更新：`python3 scripts/gen-star-growth.py`（依赖已登录的 gh CLI），脚本会拉最新 stargazer 数据并按本设计系统重绘。
-- shields 徽章实时，无需维护；paper-reading-zh 的 release 徽章必须带 `include_prereleases` 参数，去掉会显示 invalid（shields 对该仓库的怪癖）。
-- skillicons.dev 与 github-readme-activity-graph.vercel.app 是外部服务，URL 参数已调成纸面配色（`theme=light`；活动图 `bg_color=fcfbf9&line=d93b2b` 等），不要改回默认配色。
-- SVG 里 CJK 文本宽度 ≈ 字号 × 字数，没有自动布局；改主标题长度要同步挪副标签的 x。
-- 改完 SVG 至少渲染一遍再提交：`rsvg-convert -b '#ffffff'` 或 Chrome headless 截 900px 宽白底预览。
+- `assets/svg/star-growth.svg` 是静态快照。更新：`python3 scripts/gen-star-growth.py`（依赖已登录的 gh CLI），脚本会拉最新 stargazer 数据并按 Signal Index 设计重绘。
+- `assets/svg/recent-activity.svg` 是近 30 天静态快照。更新：`python3 scripts/gen-recent-activity.py`（依赖已登录的 gh CLI），脚本会拉贡献日历与提交涉及的仓库数并重绘活动信号和统计。
+- shields 徽章实时，无需维护；paper-reading-zh 的 release 徽章必须带 `include_prereleases`，去掉会显示 invalid。
+- skillicons.dev 使用 `theme=light`，不要改回默认主题。
+- SVG 里 CJK 没有自动布局；修改中文标题或字段后要同步检查列宽、换行和 x 坐标。
+- 改完 SVG 至少渲染一遍：`rsvg-convert -w 900 -b '#ffffff'`，再用整页 Chrome / 浏览器预览检查缩放后的可读性。
+- `assets/svg/banner-top.svg`、两张公开项目卡和 `assets/svg/lab-notes.svg` 是同一套网格，改列宽时要一起核对。
 
 ## 文案
 
-- 中文为主，过「说人话」的去 AI 味标准（作者是该 skill 的作者，这页就是示范；规则见 MrGeDiao/shuorenhua）
-- 事实红线：paper-reading-zh 的覆盖平台是 Codex、Claude Code、Claude Project、ChatGPT Project 四个，别漏 Claude Project
-- 不写简历级细节（公司、任职、指标）；这页的目标是让访客对作者和作品产生兴趣
-- 联系邮箱：zcoeus@protonmail.com
+- 中文为主，过「说人话」标准：具体、直接、有作者判断，不写宣传腔、价值拔高或空总结。
+- 第一屏说清作者是谁、做什么、关注哪些问题；公开项目说清问题、做法、验证和平台。
+- paper-reading-zh 的覆盖平台固定为 Codex、Claude Code、Claude Project、ChatGPT Project 四个，不能漏 Claude Project。
+- 私有项目可以公开用途、实现方法、设计取舍和明确边界；不要公开凭证、主机地址、内部敏感路径或没有核验的数据。
+- 不写公司、任职和业务指标等简历级细节；联系邮箱：zcoeus@protonmail.com。
 
 ## 协作约定
 
-- 以仓库所有者名义提交，commit message 用中文、`docs:` 前缀、不加 AI 署名
-- 涉及视觉的改动先出渲染预览给作者确认再 push；纯数据刷新（如重跑增长曲线）可直接提交
+- 以仓库所有者名义提交，commit message 用中文、`docs:` 前缀、不加 AI 署名。
+- 涉及视觉的改动先出渲染预览给作者确认再 push；纯数据刷新可直接提交。

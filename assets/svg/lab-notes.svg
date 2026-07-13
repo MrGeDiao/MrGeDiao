@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="私有研究项目：santi、model-forensics、DreamMem、x-pipeline、OpenClaw engineering">
+  <rect x="1" y="1" width="1198" height="558" fill="#F7F8F5" stroke="#D7DCE2" stroke-width="1.5"/>
+  <rect x="40" y="25" width="9" height="9" fill="#246BFD"/>
+  <text x="62" y="35" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'PingFang SC', 'Segoe UI', sans-serif" font-size="21" font-weight="720" fill="#101318">私有研究项目</text>
+  <text x="208" y="35" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', monospace" font-size="10.5" letter-spacing="0.7" fill="#929AA5">PRIVATE WORK IN PROGRESS</text>
+  <text x="1160" y="35" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'PingFang SC', 'Segoe UI', sans-serif" font-size="13" fill="#66707C">已经做出来的部分，不是路线图。</text>
+  <line x1="40" y1="54" x2="1160" y2="54" stroke="#AEB5BF"/>
+
+  <g font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', monospace" font-size="10.5" letter-spacing="0.7" fill="#246BFD">
+    <text x="42" y="78">ID</text>
+    <text x="112" y="78">PROJECT</text>
+    <text x="322" y="78">PURPOSE</text>
+    <text x="622" y="78">METHOD</text>
+    <text x="922" y="78">BOUNDARY</text>
+  </g>
+  <line x1="40" y1="91" x2="1160" y2="91" stroke="#AEB5BF"/>
+  <g stroke="#D7DCE2">
+    <line x1="100" y1="54" x2="100" y2="531"/>
+    <line x1="310" y1="54" x2="310" y2="531"/>
+    <line x1="610" y1="54" x2="610" y2="531"/>
+    <line x1="910" y1="54" x2="910" y2="531"/>
+    <line x1="40" y1="179" x2="1160" y2="179"/>
+    <line x1="40" y1="267" x2="1160" y2="267"/>
+    <line x1="40" y1="355" x2="1160" y2="355"/>
+    <line x1="40" y1="443" x2="1160" y2="443"/>
+    <line x1="40" y1="531" x2="1160" y2="531"/>
+  </g>
+
+  <g font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', monospace" fill="#246BFD" font-size="27" font-weight="650">
+    <text x="42" y="138">01</text><text x="42" y="226">02</text><text x="42" y="314">03</text><text x="42" y="402">04</text><text x="42" y="490">05</text>
+  </g>
+
+  <g font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', monospace" fill="#101318" font-size="15" font-weight="700">
+    <text x="112" y="121">santi</text>
+    <text x="112" y="209">model-forensics</text>
+    <text x="112" y="297">DreamMem</text>
+    <text x="112" y="385">x-pipeline</text>
+    <text x="112" y="473">OpenClaw engineering</text>
+  </g>
+  <g font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', monospace" font-size="10.5" fill="#246BFD">
+    <text x="112" y="146">多模型协作</text><text x="112" y="234">模型取证</text><text x="112" y="322">记忆与文件</text><text x="112" y="410">内容流水线</text><text x="112" y="498">工程体系</text>
+  </g>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'PingFang SC', 'Segoe UI', sans-serif" font-size="13.7" fill="#101318">
+    <text x="322" y="119">把 Codex、Claude Code 和独立模型</text><text x="322" y="143">编排成有责任边界的协作流程。</text>
+    <text x="622" y="119">Codex 唯一写入；两个顾问只读；</text><text x="622" y="143">每个 pass 核验实际模型并留记录。</text>
+    <text x="922" y="119">不拿 agent 共识代替测试；</text><text x="922" y="143">顾问不能直接改项目文件。</text>
+
+    <text x="322" y="207">核对 CLI 请求的模型，与实际执行的</text><text x="322" y="231">模型是否一致。</text>
+    <text x="622" y="207">扫描本地会话工件和代理日志，按</text><text x="622" y="231">E0–E4 分级，生成带哈希的回执。</text>
+    <text x="922" y="207">本地优先，只检测和报告；</text><text x="922" y="231">统计判断带置信度，不冒充定论。</text>
+
+    <text x="322" y="295">让 coding agent 记住长期有效的信息，</text><text x="322" y="319">而不是把全部对话塞进黑盒。</text>
+    <text x="622" y="295">Markdown / YAML 是事实来源；候选记忆</text><text x="622" y="319">经过 review，再进入长期记忆和检索。</text>
+    <text x="922" y="295">不自动永久记忆；SQLite 只是</text><text x="922" y="319">派生索引，可以从源文件重建。</text>
+
+    <text x="322" y="383">从 X List 选题，三稿起草、评审、</text><text x="322" y="407">去 AI 味，最后产出候选稿。</text>
+    <text x="622" y="383">LLM 选题闸 + 确定性校验 + 人工反馈，</text><text x="622" y="407">每周聚合发布率和废稿原因。</text>
+    <text x="922" y="383">永不自动发推；发布决定和动作</text><text x="922" y="407">始终在人这一侧。</text>
+
+    <text x="322" y="471">把个人 OpenClaw 环境当生产服务维护，</text><text x="322" y="495">配置、升级、回滚和 runbook 都进仓库。</text>
+    <text x="622" y="471">仓库是配置事实来源；分阶段升级，</text><text x="622" y="495">激活失败自动回滚，并保留验收记录。</text>
+    <text x="922" y="471">线上改动先写影响、回滚和验收；</text><text x="922" y="495">secret 与仓库内容分开管理。</text>
+  </g>
+</svg>

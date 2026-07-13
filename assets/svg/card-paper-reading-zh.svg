@@ -1,32 +1,52 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="176" viewBox="0 0 1200 176" role="img" aria-label="paper-reading-zh —— AI 精读中文论文的证据规则包">
-  <rect x="1" y="1" width="1198" height="174" rx="14" fill="#FCFBF9" stroke="#E8E4DD" stroke-width="1.5"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="310" viewBox="0 0 1200 310" role="img" aria-label="公开作品 02：paper-reading-zh">
+  <rect x="1" y="1" width="1198" height="308" fill="#F7F8F5" stroke="#D7DCE2" stroke-width="1.5"/>
 
-  <rect x="40" y="46" width="84" height="84" rx="16" fill="#F6F4F0" stroke="#EBE7E0" stroke-width="1.5"/>
-  <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2">
-    <rect x="64" y="66" width="36" height="46" rx="5" stroke="#1F2328"/>
-    <line x1="72" y1="79" x2="92" y2="79" stroke="#1F2328" opacity="0.4"/>
-    <line x1="72" y1="88" x2="92" y2="88" stroke="#1F2328" opacity="0.4"/>
-    <line x1="72" y1="97" x2="84" y2="97" stroke="#D93B2B"/>
+  <g font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', monospace" font-size="10.5" letter-spacing="0.7" fill="#246BFD">
+    <text x="42" y="42">#</text>
+    <text x="148" y="42">PROJECT</text>
+    <text x="372" y="42">PROBLEM</text>
+    <text x="612" y="42">APPROACH</text>
+    <text x="842" y="42">PROOF</text>
+    <text x="1030" y="42">PLATFORMS</text>
+  </g>
+  <line x1="40" y1="58" x2="1160" y2="58" stroke="#AEB5BF"/>
+  <g stroke="#D7DCE2">
+    <line x1="130" y1="58" x2="130" y2="270"/>
+    <line x1="350" y1="58" x2="350" y2="270"/>
+    <line x1="590" y1="58" x2="590" y2="270"/>
+    <line x1="820" y1="58" x2="820" y2="270"/>
+    <line x1="1010" y1="58" x2="1010" y2="270"/>
   </g>
 
-  <rect x="156" y="58" width="10" height="10" rx="2" fill="#D93B2B"/>
-  <text x="176" y="82" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', monospace" font-size="27" font-weight="700" fill="#1F2328">paper-reading-zh</text>
-  <text x="472" y="82" font-family="-apple-system, 'SF Pro Text', 'PingFang SC', 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="16" fill="#8A939E">中文论文精读</text>
+  <text x="40" y="142" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', monospace" font-size="64" font-weight="650" fill="#246BFD">02</text>
 
-  <text x="176" y="118" font-family="-apple-system, 'SF Pro Text', 'PingFang SC', 'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="17" fill="#57606A">AI 精读中文论文的证据规则包 —— 未核验不补，读不到不编</text>
+  <text x="148" y="112" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', monospace" font-size="20" font-weight="700" letter-spacing="-0.3" fill="#101318">paper-reading-zh</text>
+  <text x="148" y="143" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'PingFang SC', 'Segoe UI', sans-serif" font-size="15" fill="#66707C">中文论文精读</text>
+  <rect x="148" y="166" width="104" height="25" fill="#E8F0FF"/>
+  <text x="200" y="183" text-anchor="middle" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', monospace" font-size="11" fill="#246BFD">证据规则包</text>
 
-  <g font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', monospace" font-size="13" text-anchor="middle">
-    <rect x="176" y="132" width="52" height="28" rx="14" fill="#F6F4F0" stroke="#EBE7E0"/>
-    <text x="202" y="150" fill="#6E7781">MIT</text>
-    <rect x="238" y="132" width="68" height="28" rx="14" fill="#F6F4F0" stroke="#EBE7E0"/>
-    <text x="272" y="150" fill="#6E7781">Codex</text>
-    <rect x="316" y="132" width="116" height="28" rx="14" fill="#F6F4F0" stroke="#EBE7E0"/>
-    <text x="374" y="150" fill="#6E7781">Claude Code</text>
-    <rect x="442" y="132" width="128" height="28" rx="14" fill="#F6F4F0" stroke="#EBE7E0"/>
-    <text x="506" y="150" fill="#6E7781">Claude Project</text>
-    <rect x="580" y="132" width="140" height="28" rx="14" fill="#F6F4F0" stroke="#EBE7E0"/>
-    <text x="650" y="150" fill="#6E7781">ChatGPT Project</text>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'PingFang SC', 'Segoe UI', sans-serif" font-size="15.5" fill="#101318">
+    <text x="372" y="103">AI 容易把没读到的内容</text>
+    <text x="372" y="129">补完整，再把没核验的</text>
+    <text x="372" y="155">判断写成事实。跨论文</text>
+    <text x="372" y="181">比较也常混用不同口径。</text>
+
+    <text x="612" y="103">为结论标注证据位置，</text>
+    <text x="612" y="129">把事实、推断和未知分开。</text>
+    <text x="612" y="155">比较前先统一对象、指标、</text>
+    <text x="612" y="181">样本范围和实验条件。</text>
+
+    <text x="842" y="103">输出要求能回到原文、</text>
+    <text x="842" y="129">图表或可核对来源。</text>
+    <text x="842" y="155">规则、模板和示例同步</text>
+    <text x="842" y="181">覆盖四个平台。</text>
+
+    <text x="1030" y="103">Codex</text>
+    <text x="1030" y="129">Claude Code</text>
+    <text x="1030" y="155">Claude Project</text>
+    <text x="1030" y="181">ChatGPT Project</text>
   </g>
 
-  <text x="1124" y="68" font-family="-apple-system, sans-serif" font-size="22" fill="#D93B2B">→</text>
+  <line x1="40" y1="270" x2="1160" y2="270" stroke="#AEB5BF"/>
+  <text x="42" y="292" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', monospace" font-size="11.5" fill="#66707C">PUBLIC WORK · ACTIVE · MIT · EVIDENCE ANCHORED · CLAIMS SEPARATED</text>
 </svg>
