@@ -2,6 +2,7 @@
 """重绘 assets/svg/star-growth.svg：拉取 shuorenhua 最新 stargazer 时间戳，按 Signal Index 设计生成累计增长曲线。
 
 用法：python3 scripts/gen-star-growth.py   （依赖已登录的 gh CLI）
+取数走 GraphQL 的 starredAt：REST 的 stargazers 端点对 Actions 自带 GITHUB_TOKEN 一律 403，GraphQL 放行。
 """
 import json
 import math
@@ -26,17 +27,24 @@ MONO = "ui-monospace, 'SF Mono', 'JetBrains Mono', monospace"
 
 
 def fetch_star_dates():
-    dates, page = [], 1
+    owner, name = REPO.split("/")
+    dates, cursor = [], None
     while True:
+        after = f', after: "{cursor}"' if cursor else ""
+        query = (
+            'query { repository(owner: "%s", name: "%s") { '
+            "stargazers(first: 100, orderBy: {field: STARRED_AT, direction: ASC}%s) "
+            "{ edges { starredAt } pageInfo { hasNextPage endCursor } } } }"
+            % (owner, name, after)
+        )
         out = subprocess.run(
-            ["gh", "api", f"repos/{REPO}/stargazers?per_page=100&page={page}",
-             "-H", "Accept: application/vnd.github.star+json"],
+            ["gh", "api", "graphql", "-f", f"query={query}"],
             stdout=subprocess.PIPE, text=True, check=True).stdout
-        batch = json.loads(out)
-        if not batch:
+        sg = json.loads(out)["data"]["repository"]["stargazers"]
+        dates += [date.fromisoformat(e["starredAt"][:10]) for e in sg["edges"]]
+        if not sg["pageInfo"]["hasNextPage"]:
             return dates
-        dates += [date.fromisoformat(item["starred_at"][:10]) for item in batch]
-        page += 1
+        cursor = sg["pageInfo"]["endCursor"]
 
 
 def main():

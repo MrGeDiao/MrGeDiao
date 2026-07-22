@@ -13,10 +13,9 @@ jobs:
     runs-on: ubuntu-latest
     env:
       TZ: Asia/Shanghai
-      # 自带 GITHUB_TOKEN 只有本仓库权限，跨仓库读 shuorenhua 的 stargazers 会 403
-      # （Resource not accessible by integration）。需要 repo secret STAR_GROWTH_TOKEN：
-      # 无 scope 的 classic PAT 即可，只用于读公开数据。
-      GH_TOKEN: ${{ secrets.STAR_GROWTH_TOKEN || github.token }}
+      # 脚本走 GraphQL 读 stargazers，自带 token 即可（REST 的 stargazers 端点
+      # 对 Actions 令牌一律 403，连本仓库都拒，别改回 REST）。
+      GH_TOKEN: ${{ github.token }}
     steps:
       - uses: actions/checkout@v4
 
