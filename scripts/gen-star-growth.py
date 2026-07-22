@@ -31,7 +31,7 @@ def fetch_star_dates():
         out = subprocess.run(
             ["gh", "api", f"repos/{REPO}/stargazers?per_page=100&page={page}",
              "-H", "Accept: application/vnd.github.star+json"],
-            capture_output=True, text=True, check=True).stdout
+            stdout=subprocess.PIPE, text=True, check=True).stdout
         batch = json.loads(out)
         if not batch:
             return dates
