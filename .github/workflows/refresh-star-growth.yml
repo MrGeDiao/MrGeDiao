@@ -13,8 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     env:
       TZ: Asia/Shanghai
-      # 脚本走 GraphQL 读 stargazers，自带 token 即可（REST 的 stargazers 端点
-      # 对 Actions 令牌一律 403，连本仓库都拒，别改回 REST）。
+      # 脚本只读 shuorenhua 的 stargazers_count，自带 token 够用。stargazers
+      # 列表端点（REST 和 GraphQL 都一样）对自带 token 一律拒绝，别改回去拉时间戳。
       GH_TOKEN: ${{ github.token }}
     steps:
       - uses: actions/checkout@v4
@@ -24,12 +24,12 @@ jobs:
 
       - name: 有变化才提交
         run: |
-          if git diff --quiet assets/svg/star-growth.svg; then
+          if git diff --quiet assets/svg/star-growth.svg data/star-history.json; then
             echo "星数无变化，跳过提交"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/svg/star-growth.svg
+          git add assets/svg/star-growth.svg data/star-history.json
           git commit -m "docs: 自动刷新 star 增长曲线"
           git push

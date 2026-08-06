@@ -12,7 +12,7 @@ banner → 自述两段 → 公开作品（两条研究记录 + shields）→ st
 
 ## 维护点
 
-- `assets/svg/star-growth.svg` 由 `.github/workflows/refresh-star-growth.yml` 每天 09:23（北京时间）自动重绘，星数有变化才提交（github-actions[bot] 名义），无需任何 secret。取数走 GraphQL 的 starredAt——REST 的 stargazers 端点对 Actions 自带 GITHUB_TOKEN 一律 403，别改回去。本地手动刷新仍用 `python3 scripts/gen-star-growth.py`（依赖已登录的 gh CLI）。
+- `assets/svg/star-growth.svg` 由 `.github/workflows/refresh-star-growth.yml` 每天 09:23（北京时间）自动重绘，星数有变化才提交（github-actions[bot] 名义），无需任何 secret。逐日累计存在 `data/star-history.json`，脚本每次只读一次 shuorenhua 的 `stargazers_count` 补上当天再重绘，SVG 和 JSON 一起提交。不要改回按 starredAt 拉 stargazers 列表：那个端点 REST 和 GraphQL 都拒绝 Actions 自带的 GITHUB_TOKEN（作用域只覆盖本仓库），匿名也不放行。本地手动刷新同样是 `python3 scripts/gen-star-growth.py`（依赖已登录的 gh CLI）。
 - `assets/svg/recent-activity.svg` 是近 30 天静态快照。更新：`python3 scripts/gen-recent-activity.py`（依赖已登录的 gh CLI），脚本会拉贡献日历与提交涉及的仓库数并重绘活动信号和统计。
 - shields 徽章实时，无需维护；paper-reading-zh 的 release 徽章必须带 `include_prereleases`，去掉会显示 invalid。
 - skillicons.dev 使用 `theme=light`，不要改回默认主题。

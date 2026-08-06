@@ -1,17 +1,17 @@
 #!/usr/bin/env python3
-"""重绘 assets/svg/star-growth.svg：拉取 shuorenhua 最新 stargazer 时间戳，按 Signal Index 设计生成累计增长曲线。
+"""重绘 assets/svg/star-growth.svg：按 Signal Index 设计生成 shuorenhua 的 star 累计增长曲线。
 
-用法：python3 scripts/gen-star-growth.py   （依赖已登录的 gh CLI）
-取数走 GraphQL 的 starredAt：REST 的 stargazers 端点对 Actions 自带 GITHUB_TOKEN 一律 403，GraphQL 放行。
+用法：python3 scripts/gen-star-growth.py   （依赖已登录的 gh CLI 或 GH_TOKEN）
+历史逐日累计存在 data/star-history.json，每次运行只读一次 stargazers_count 补上当天。
 """
 import json
 import math
 import subprocess
-from collections import Counter
 from datetime import date
 from pathlib import Path
 
 REPO = "MrGeDiao/shuorenhua"
+HISTORY = Path(__file__).resolve().parent.parent / "data" / "star-history.json"
 OPEN_DATE = date(2026, 3, 22)  # 开源日
 EVENTS = [(date(2026, 6, 18), "v1.9 · Eval Harness")]  # 曲线上的发版标注
 
@@ -26,45 +26,38 @@ SANS = "-apple-system, 'SF Pro Text', 'PingFang SC', 'Segoe UI', 'Microsoft YaHe
 MONO = "ui-monospace, 'SF Mono', 'JetBrains Mono', monospace"
 
 
-def fetch_star_dates():
-    owner, name = REPO.split("/")
-    dates, cursor = [], None
-    while True:
-        after = f', after: "{cursor}"' if cursor else ""
-        query = (
-            'query { repository(owner: "%s", name: "%s") { '
-            "stargazers(first: 100, orderBy: {field: STARRED_AT, direction: ASC}%s) "
-            "{ edges { starredAt } pageInfo { hasNextPage endCursor } } } }"
-            % (owner, name, after)
-        )
-        out = subprocess.run(
-            ["gh", "api", "graphql", "-f", f"query={query}"],
-            stdout=subprocess.PIPE, text=True, check=True).stdout
-        sg = json.loads(out)["data"]["repository"]["stargazers"]
-        dates += [date.fromisoformat(e["starredAt"][:10]) for e in sg["edges"]]
-        if not sg["pageInfo"]["hasNextPage"]:
-            return dates
-        cursor = sg["pageInfo"]["endCursor"]
+def load_history():
+    """读逐日累计存档，用当前 stargazers_count 补上今天这条，回写后返回。
+
+    stargazers 列表端点（REST 和 GraphQL 都一样）对 Actions 自带的 GITHUB_TOKEN
+    一律拒绝——它的作用域只覆盖本仓库，读不了 shuorenhua，匿名也不放行。
+    仓库自身的 stargazers_count 权限低，自带 token 就能读，所以历史时间戳一次性
+    存档，日常只增量追加当天总数。
+    """
+    data = json.loads(HISTORY.read_text(encoding="utf-8"))
+    total = int(subprocess.run(
+        ["gh", "api", f"repos/{REPO}", "--jq", ".stargazers_count"],
+        stdout=subprocess.PIPE, text=True, check=True).stdout.strip())
+
+    data["cumulative"][date.today().isoformat()] = total
+    data["cumulative"] = dict(sorted(data["cumulative"].items()))
+    HISTORY.write_text(json.dumps(data, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    return {date.fromisoformat(d): v for d, v in data["cumulative"].items()}
 
 
 def main():
-    star_dates = fetch_star_dates()
+    cum_at = load_history()
     today = date.today()
     span = (today - OPEN_DATE).days
-    per_day = Counter(star_dates)
 
     def xs(d): return X0 + (d - OPEN_DATE).days / span * (X1 - X0)
 
-    total = len(star_dates)
+    total = cum_at[max(cum_at)]
     ymax = math.ceil(total * 1.06 / 20) * 20
 
     def ys(v): return Y0 - v * PLOT_H / ymax
 
-    cum, pts, cum_at = 0, [(xs(OPEN_DATE), ys(0))], {}
-    for d in sorted(per_day):
-        cum += per_day[d]
-        pts.append((xs(d), ys(cum)))
-        cum_at[d] = cum
+    pts = [(xs(OPEN_DATE), ys(0))] + [(xs(d), ys(cum_at[d])) for d in sorted(cum_at)]
     line = "M" + " L".join(f"{x:.1f},{y:.1f}" for x, y in pts)
     area = line + f" L{X1},{Y0} L{X0},{Y0} Z"
     end_x, end_y = pts[-1]
