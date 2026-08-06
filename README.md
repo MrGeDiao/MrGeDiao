@@ -39,7 +39,7 @@
 
 下面这些仓库暂时没有公开。这里写的是已经做出来的部分，不是路线图，也不是预告。
 
-![私有研究项目：santi、model-forensics、DreamMem、x-pipeline、OpenClaw engineering](assets/svg/lab-notes.svg)
+![私有研究项目：santi、model-forensics、DreamMem、x-pipeline、OpenClaw engineering、network-proxy-rules、taobeibei-project](assets/svg/lab-notes.svg)
 
 <details>
 <summary>展开看项目细节</summary>
@@ -63,6 +63,14 @@
 ### `OpenClaw engineering`
 
 这个仓库维护我自己的 OpenClaw 生产环境。配置、脚本、workspace、升级记录和 runbook 都以仓库为准；升级先生成可审查的 staging，再事务式激活，失败会自动回滚。线上变更要先写清影响、回滚和验收，secret 与仓库内容分开管理。
+
+### `network-proxy-rules`
+
+家里六个代理客户端各改各的，规则很快就对不上。现在只有一份配置源，跑一次脚本生成 OpenClash、Clash、Stash、Surge、Quantumult X、Shadowrocket 六家的产物，静态校验和回归测试跟着生成链一起跑。推到路由器前先 dry-run 和备份，失败自动回滚。手改生成出来的文件不算修复——下次生成就被覆盖，改动必须回到配置源。
+
+### `taobeibei-project`
+
+一次外部合作的需求与方案资料库，这里只说做法。原始录音、平台导出和沟通记录只读留存，不覆盖也不替换；产品方案以 Markdown 为源稿，其他分发格式都从它生成；要核对事实就回到原始证据，不从生成稿的表述反推结论。资料本身涉及对方业务，仓库保持私有。
 
 </details>
 

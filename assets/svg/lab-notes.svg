@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="私有研究项目：santi、model-forensics、DreamMem、x-pipeline、OpenClaw engineering">
-  <rect x="1" y="1" width="1198" height="558" fill="#F7F8F5" stroke="#D7DCE2" stroke-width="1.5"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="736" viewBox="0 0 1200 736" role="img" aria-label="私有研究项目：santi、model-forensics、DreamMem、x-pipeline、OpenClaw engineering、network-proxy-rules、taobeibei-project">
+  <rect x="1" y="1" width="1198" height="734" fill="#F7F8F5" stroke="#D7DCE2" stroke-width="1.5"/>
   <rect x="40" y="25" width="9" height="9" fill="#246BFD"/>
   <text x="62" y="35" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'PingFang SC', 'Segoe UI', sans-serif" font-size="21" font-weight="720" fill="#101318">私有研究项目</text>
   <text x="208" y="35" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', monospace" font-size="10.5" letter-spacing="0.7" fill="#929AA5">PRIVATE WORK IN PROGRESS</text>
@@ -15,19 +15,21 @@
   </g>
   <line x1="40" y1="91" x2="1160" y2="91" stroke="#AEB5BF"/>
   <g stroke="#D7DCE2">
-    <line x1="100" y1="54" x2="100" y2="531"/>
-    <line x1="310" y1="54" x2="310" y2="531"/>
-    <line x1="610" y1="54" x2="610" y2="531"/>
-    <line x1="910" y1="54" x2="910" y2="531"/>
+    <line x1="100" y1="54" x2="100" y2="707"/>
+    <line x1="310" y1="54" x2="310" y2="707"/>
+    <line x1="610" y1="54" x2="610" y2="707"/>
+    <line x1="910" y1="54" x2="910" y2="707"/>
     <line x1="40" y1="179" x2="1160" y2="179"/>
     <line x1="40" y1="267" x2="1160" y2="267"/>
     <line x1="40" y1="355" x2="1160" y2="355"/>
     <line x1="40" y1="443" x2="1160" y2="443"/>
     <line x1="40" y1="531" x2="1160" y2="531"/>
+    <line x1="40" y1="619" x2="1160" y2="619"/>
+    <line x1="40" y1="707" x2="1160" y2="707"/>
   </g>
 
   <g font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', monospace" fill="#246BFD" font-size="27" font-weight="650">
-    <text x="42" y="138">01</text><text x="42" y="226">02</text><text x="42" y="314">03</text><text x="42" y="402">04</text><text x="42" y="490">05</text>
+    <text x="42" y="138">01</text><text x="42" y="226">02</text><text x="42" y="314">03</text><text x="42" y="402">04</text><text x="42" y="490">05</text><text x="42" y="578">06</text><text x="42" y="666">07</text>
   </g>
 
   <g font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', monospace" fill="#101318" font-size="15" font-weight="700">
@@ -36,9 +38,11 @@
     <text x="112" y="297">DreamMem</text>
     <text x="112" y="385">x-pipeline</text>
     <text x="112" y="473">OpenClaw engineering</text>
+    <text x="112" y="561">network-proxy-rules</text>
+    <text x="112" y="649">taobeibei-project</text>
   </g>
   <g font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', monospace" font-size="10.5" fill="#246BFD">
-    <text x="112" y="146">多模型协作</text><text x="112" y="234">模型取证</text><text x="112" y="322">记忆与文件</text><text x="112" y="410">内容流水线</text><text x="112" y="498">工程体系</text>
+    <text x="112" y="146">多模型协作</text><text x="112" y="234">模型取证</text><text x="112" y="322">记忆与文件</text><text x="112" y="410">内容流水线</text><text x="112" y="498">工程体系</text><text x="112" y="586">网络与部署</text><text x="112" y="674">需求与证据</text>
   </g>
 
   <g font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'PingFang SC', 'Segoe UI', sans-serif" font-size="13.7" fill="#101318">
@@ -61,5 +65,13 @@
     <text x="322" y="471">把个人 OpenClaw 环境当生产服务维护，</text><text x="322" y="495">配置、升级、回滚和 runbook 都进仓库。</text>
     <text x="622" y="471">仓库是配置事实来源；分阶段升级，</text><text x="622" y="495">激活失败自动回滚，并保留验收记录。</text>
     <text x="922" y="471">线上改动先写影响、回滚和验收；</text><text x="922" y="495">secret 与仓库内容分开管理。</text>
+
+    <text x="322" y="559">一份配置管住六个代理客户端，</text><text x="322" y="583">改一处就同步到所有终端。</text>
+    <text x="622" y="559">单一配置源生成各家产物；静态校验</text><text x="622" y="583">和回归测试跟着生成链一起跑。</text>
+    <text x="922" y="559">不手改生成产物；推到路由器</text><text x="922" y="583">前先 dry-run、备份、可回滚。</text>
+
+    <text x="322" y="647">把需求沟通里的零散材料，</text><text x="322" y="671">整理成能回溯的证据链。</text>
+    <text x="622" y="647">原始记录只读留存；方案以 Markdown</text><text x="622" y="671">为源稿，再生成分发用的格式。</text>
+    <text x="922" y="647">事实只认原始证据，</text><text x="922" y="671">不从生成稿反推结论。</text>
   </g>
 </svg>
