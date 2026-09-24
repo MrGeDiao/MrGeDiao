@@ -1,32 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="220" viewBox="0 0 600 220" role="img" aria-label="AI 工作流：需求澄清、信息获取、结构化理解、构建与验证、复盘迭代">
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="220" viewBox="0 0 600 220" role="img" aria-label="做事方式：写清需求、自己写代码、测试验收、上线维护">
   <rect x="1" y="1" width="598" height="218" fill="#F7F8F5" stroke="#D7DCE2" stroke-width="1.5"/>
   <rect x="24" y="23" width="8" height="8" fill="#246BFD"/>
-  <text x="44" y="32" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'PingFang SC', 'Segoe UI', sans-serif" font-size="18" font-weight="700" fill="#101318">AI 工作流</text>
-  <text x="142" y="32" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', monospace" font-size="10.5" letter-spacing="0.7" fill="#929AA5">WORKFLOW</text>
+  <text x="44" y="32" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'PingFang SC', 'Segoe UI', sans-serif" font-size="18" font-weight="700" fill="#101318">做事方式</text>
+  <text x="124" y="32" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', monospace" font-size="10.5" letter-spacing="0.7" fill="#929AA5">HOW I WORK</text>
   <line x1="24" y1="49" x2="576" y2="49" stroke="#AEB5BF"/>
 
   <!-- Tabler Icons, MIT -->
   <g fill="none" stroke="#246BFD" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
-    <g transform="translate(35,75)"><path d="M14 3v4a1 1 0 0 0 1 1h4"/><path d="M5 13v-8a2 2 0 0 1 2 -2h7l5 5v12a2 2 0 0 1 -2 2h-5"/><path d="M2 15l3 -3l3 3"/><path d="M5 12v9"/></g>
-    <g transform="translate(145,75)"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35 -4.35"/></g>
-    <g transform="translate(255,75)"><path d="M12 3l8 4.5v9l-8 4.5l-8 -4.5v-9z"/><path d="M12 12l8 -4.5"/><path d="M12 12v9"/><path d="M12 12l-8 -4.5"/></g>
-    <g transform="translate(365,75)"><path d="M7 8l-4 4l4 4"/><path d="M17 8l4 4l-4 4"/><path d="M14 4l-4 16"/></g>
-    <g transform="translate(475,75)"><path d="M4 19l4 -6l4 2l4 -5l4 4"/><path d="M4 4v15h16"/></g>
+    <g transform="translate(59,75)"><path d="M14 3v4a1 1 0 0 0 1 1h4"/><path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z"/><path d="M9 9l1 0"/><path d="M9 13l6 0"/><path d="M9 17l6 0"/></g>
+    <g transform="translate(206,75)"><path d="M7 8l-4 4l4 4"/><path d="M17 8l4 4l-4 4"/><path d="M14 4l-4 16"/></g>
+    <g transform="translate(353,75)"><path d="M3.5 5.5l1.5 1.5l2.5 -2.5"/><path d="M3.5 11.5l1.5 1.5l2.5 -2.5"/><path d="M3.5 17.5l1.5 1.5l2.5 -2.5"/><path d="M11 6l9 0"/><path d="M11 12l9 0"/><path d="M11 18l9 0"/></g>
+    <g transform="translate(500,75)"><path d="M20 11a8.1 8.1 0 0 0 -15.5 -2m-.5 -4v4h4"/><path d="M4 13a8.1 8.1 0 0 0 15.5 2m.5 4v-4h-4"/></g>
   </g>
 
   <g fill="none" stroke="#66707C" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M75 87h48"/><path d="M118 82l5 5l-5 5"/>
-    <path d="M185 87h48"/><path d="M228 82l5 5l-5 5"/>
-    <path d="M295 87h48"/><path d="M338 82l5 5l-5 5"/>
-    <path d="M405 87h48"/><path d="M448 82l5 5l-5 5"/>
+    <path d="M103 87h78"/><path d="M176 82l5 5l-5 5"/>
+    <path d="M250 87h78"/><path d="M323 82l5 5l-5 5"/>
+    <path d="M397 87h78"/><path d="M470 82l5 5l-5 5"/>
   </g>
 
-  <g font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'PingFang SC', 'Segoe UI', sans-serif" font-size="14" fill="#101318" text-anchor="middle">
-    <text x="47" y="140">需求澄清</text>
-    <text x="157" y="140">信息获取</text>
-    <text x="267" y="140">结构化理解</text>
-    <text x="377" y="140">构建与验证</text>
-    <text x="487" y="140">复盘迭代</text>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'PingFang SC', 'Segoe UI', sans-serif" font-size="15" fill="#101318" text-anchor="middle">
+    <text x="71" y="140">写清需求</text>
+    <text x="218" y="140">自己写代码</text>
+    <text x="365" y="140">测试验收</text>
+    <text x="512" y="140">上线维护</text>
   </g>
-  <text x="24" y="190" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', monospace" font-size="11" fill="#66707C">先判断，再实现，用结果决定下一次改什么。</text>
+  <text x="24" y="190" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'PingFang SC', 'Segoe UI', sans-serif" font-size="13" fill="#66707C">规格、验收记录和回滚办法都放进仓库，坏了自己修。</text>
 </svg>

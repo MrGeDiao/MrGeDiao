@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="270" viewBox="0 0 1200 270" role="img" aria-label="AI 落地咨询：看业务流程、选一个小场景、带团队上手、复盘">
+  <rect x="1" y="1" width="1198" height="268" fill="#F7F8F5" stroke="#D7DCE2" stroke-width="1.5"/>
+  <rect x="1" y="1" width="1198" height="4" fill="#246BFD"/>
+  <rect x="40" y="29" width="9" height="9" fill="#246BFD"/>
+  <text x="62" y="39" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'PingFang SC', 'Segoe UI', sans-serif" font-size="21" font-weight="720" fill="#101318">AI 落地咨询</text>
+  <text x="192" y="39" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', monospace" font-size="10.5" letter-spacing="0.7" fill="#929AA5">CONSULTING</text>
+  <text x="1160" y="39" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'PingFang SC', 'Segoe UI', sans-serif" font-size="13" fill="#66707C">面向中小企业 · 培训与咨询</text>
+  <line x1="40" y1="58" x2="1160" y2="58" stroke="#AEB5BF"/>
+  <g stroke="#D7DCE2">
+    <line x1="320" y1="58" x2="320" y2="222"/>
+    <line x1="600" y1="58" x2="600" y2="222"/>
+    <line x1="880" y1="58" x2="880" y2="222"/>
+  </g>
+
+  <g font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', monospace" fill="#246BFD" font-size="27" font-weight="650">
+    <text x="42" y="112">01</text><text x="342" y="112">02</text><text x="622" y="112">03</text><text x="902" y="112">04</text>
+  </g>
+
+  <!-- Tabler Icons, MIT -->
+  <g fill="none" stroke="#101318" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(270,90)"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35 -4.35"/></g>
+    <g transform="translate(550,90)"><circle cx="12" cy="12" r="1"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="9"/></g>
+    <g transform="translate(830,90)"><path d="M5 7a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"/><path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/><path d="M21 21v-2a4 4 0 0 0 -3 -3.85"/></g>
+    <g transform="translate(1110,90)"><path d="M4 19l4 -6l4 2l4 -5l4 4"/><path d="M4 4v15h16"/></g>
+  </g>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'PingFang SC', 'Segoe UI', sans-serif" font-size="18" font-weight="700" fill="#101318">
+    <text x="42" y="152">看业务流程</text><text x="342" y="152">选一个小场景</text><text x="622" y="152">带团队上手</text><text x="902" y="152">复盘</text>
+  </g>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'PingFang SC', 'Segoe UI', sans-serif" font-size="14.5" fill="#66707C">
+    <text x="42" y="182">先聊清楚现在怎么干活、</text><text x="42" y="205">卡在哪里。</text>
+    <text x="342" y="182">一个岗位、一类任务，</text><text x="342" y="205">先做出能用的。</text>
+    <text x="622" y="182">实操培训，直接用在</text><text x="622" y="205">手上的真实工作里。</text>
+    <text x="902" y="182">看实际效果，</text><text x="902" y="205">再决定下一步做什么。</text>
+  </g>
+
+  <line x1="40" y1="222" x2="1160" y2="222" stroke="#AEB5BF"/>
+  <text x="42" y="248" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'PingFang SC', 'Segoe UI', sans-serif" font-size="13" fill="#66707C">不做重型系统实施；先让一个小场景真正用起来。</text>
+</svg>
