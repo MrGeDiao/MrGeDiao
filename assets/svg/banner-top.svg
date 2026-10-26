@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-label="MrGeDiao · 做过大厂产品，现在自己写 AI 工具，也做企业 AI 落地咨询">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-label="MrGeDiao · 前字节 AI 产品经理，现在自己写 AI 工具，也做企业 AI 落地咨询">
   <rect x="1" y="1" width="1198" height="428" fill="#F7F8F5" stroke="#D7DCE2" stroke-width="1.5"/>
   <rect x="40" y="25" width="10" height="10" fill="#246BFD"/>
   <g font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', 'Cascadia Code', monospace" font-size="12" letter-spacing="0.8">
@@ -11,7 +11,7 @@
   <line x1="822" y1="54" x2="822" y2="402" stroke="#AEB5BF"/>
 
   <text x="42" y="145" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'PingFang SC', 'Segoe UI', sans-serif" font-size="78" font-weight="760" letter-spacing="-2.5" fill="#101318">MrGeDiao</text>
-  <text x="42" y="198" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'PingFang SC', 'Segoe UI', sans-serif" font-size="31" font-weight="720" letter-spacing="0.2" fill="#101318">做过大厂产品，现在自己写 AI 工具</text>
+  <text x="42" y="198" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'PingFang SC', 'Segoe UI', sans-serif" font-size="31" font-weight="720" letter-spacing="0.2" fill="#101318">前字节 AI 产品经理，现在自己写 AI 工具</text>
   <text x="42" y="232" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'PingFang SC', 'Segoe UI', sans-serif" font-size="16" fill="#66707C">从需求一路做到代码、上线和维护；也给中小企业做 AI 落地咨询。</text>
   <line x1="42" y1="260" x2="790" y2="260" stroke="#AEB5BF"/>
 
@@ -31,7 +31,7 @@
     <text x="82" y="302">BACKGROUND</text><text x="340" y="302">NOW</text><text x="598" y="302">CONSULTING</text>
   </g>
   <g font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'PingFang SC', 'Segoe UI', sans-serif" font-size="14.5" fill="#101318">
-    <text x="82" y="330">大厂产品经理出身</text>
+    <text x="82" y="330">产品经理出身</text>
     <text x="82" y="353" fill="#66707C">先想清楚要解决什么</text>
     <text x="340" y="330">自己写代码做 AI 工具</text>
     <text x="340" y="353" fill="#66707C">上线以后自己维护</text>

@@ -1,10 +1,10 @@
-![MrGeDiao · 做过大厂产品，现在自己写 AI 工具，也做企业 AI 落地咨询](assets/svg/banner-top.svg)
+![MrGeDiao · 前字节 AI 产品经理，现在自己写 AI 工具，也做企业 AI 落地咨询](assets/svg/banner-top.svg)
 
-Ex–big-tech product manager, now building and maintaining my own AI tools. I also help small businesses put AI to work.
+Ex-ByteDance AI product manager, now building and maintaining my own AI tools. I also help small businesses put AI to work.
 
 ## 关于我 <sub>ABOUT</sub>
 
-以前在大厂做产品经理。现在碰到值得做的问题，我会自己从需求一路做到代码、上线和维护，平时主要用 Claude Code 和 Codex 干活。
+以前在字节跳动做 AI 产品经理。现在碰到值得做的问题，我会自己从需求一路做到代码、上线和维护，平时主要用 Claude Code 和 Codex 干活。
 
 我在意模型交出来的东西靠不靠得住：改过的文字有没有丢掉原意，几个 agent 一起干活时谁来负责，调用的模型是不是你点名的那个。手上的项目大多围着这几个问题。另外也在给中小企业做 AI 落地的咨询和培训。
 

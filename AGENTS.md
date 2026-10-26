@@ -24,12 +24,12 @@ banner（身份 + 现在在做 + 邮箱）→ 英文一行 → 关于我（两�
 
 - 中文为主，过「说人话」标准：具体、直接、有作者判断，不写宣传腔、价值拔高或空总结。
 - 第一屏说清作者是谁、做什么、关注哪些问题；代表作说清问题、做法、验证和平台。
-- 身份只写「大厂产品经理出身」：不写真名、公司名、城市，暂不带求职信号。
+- 身份写「前字节 AI 产品经理」（2026-10-26 用户决定公开公司名，与 X 简介一致）：不写真名、城市，暂不带求职信号。
 - 说人话的场景样本是高拟真合成，不能写成「真实样本」。
 - 首页项目只列 santi、model-forensics、x-pipeline、DreamMem、paper-reading-zh；network-proxy-rules、OpenClaw 生产仓库、taobeibei-project、ai-relay-station 和咨询项目仓库不上首页。咨询只写做法，不写城市、客户、价格。
 - paper-reading-zh 的覆盖平台固定为 Codex、Claude Code、Claude Project、ChatGPT Project 四个，不能漏 Claude Project。
 - 私有项目可以公开用途、实现方法、设计取舍和明确边界；不要公开凭证、主机地址、内部敏感路径或没有核验的数据。
-- 不写公司、任职和业务指标等简历级细节；联系邮箱：zcoeus@protonmail.com。
+- 除「前字节 AI 产品经理」外，不写任职时间、职级和业务指标等简历级细节；联系邮箱：zcoeus@protonmail.com。
 
 ## 协作约定
 
