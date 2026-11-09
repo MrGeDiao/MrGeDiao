@@ -2,7 +2,7 @@
 
 Ex-ByteDance AI product manager, now building and maintaining my own AI tools. I also help small businesses put AI to work.
 
-## 关于我 <sub>ABOUT</sub>
+## 关于我
 
 以前在字节跳动做 AI 产品经理。现在碰到值得做的问题，我会自己从需求一路做到代码、上线和维护，平时主要用 Claude Code 和 Codex 干活。
 
@@ -21,7 +21,7 @@ Ex-ByteDance AI product manager, now building and maintaining my own AI tools. I
   </tr>
 </table>
 
-## 代表作 <sub>FLAGSHIP</sub>
+## 代表作
 
 [![代表作：说人话 / shuorenhua](assets/svg/card-shuorenhua.svg)](https://github.com/MrGeDiao/shuorenhua)
 
@@ -31,7 +31,7 @@ Ex-ByteDance AI product manager, now building and maintaining my own AI tools. I
 
 [![「说人话」star 增长曲线](assets/svg/star-growth.svg)](https://github.com/MrGeDiao/shuorenhua/stargazers)
 
-## 现在还在做 <sub>ACTIVE WORK</sub>
+## 现在还在做
 
 ![现在还在做：santi、真活、realzoeus、paper-reading-zh](assets/svg/lab-notes.svg)
 
@@ -54,7 +54,7 @@ Opus 能力强，额度也贵，`santi` 让它只做判断：拆任务、写任�
 
 </details>
 
-## AI 落地咨询 <sub>CONSULTING</sub>
+## AI 落地咨询
 
 ![AI 落地咨询：看业务流程、选一个小场景、带团队上手、复盘](assets/svg/consulting.svg)
 
