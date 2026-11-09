@@ -72,7 +72,8 @@ def main():
     m = OPEN_DATE.month % 12 + 1
     year = OPEN_DATE.year + (OPEN_DATE.month == 12)
     while date(year, m, 1) <= today:
-        xticks.append(f'<text x="{xs(date(year, m, 1)):.1f}" y="365">{m}月</text>')
+        if xs(date(year, m, 1)) - X0 > 90:
+            xticks.append(f'<text x="{xs(date(year, m, 1)):.1f}" y="365">{m}月</text>')
         year, m = (year + 1, 1) if m == 12 else (year, m + 1)
 
     events_svg = []
@@ -82,27 +83,27 @@ def main():
         events_svg.append(
             f'<line x1="{ex:.1f}" y1="{ey+6:.1f}" x2="{ex:.1f}" y2="{Y0}" stroke="{BASELINE}" stroke-width="1" stroke-dasharray="2 5"/>\n'
             f'  <circle cx="{ex:.1f}" cy="{ey:.1f}" r="3.5" fill="{INK}" stroke="{PANEL}" stroke-width="2"/>\n'
-            f'  <text x="{ex-10:.1f}" y="{ey-15:.1f}" font-family="{SANS}" font-size="12" fill="{MUTED}" text-anchor="end">{label}</text>')
+            f'  <text x="{ex-10:.1f}" y="{ey-15:.1f}" font-family="{SANS}" font-size="14" fill="{MUTED}" text-anchor="end">{label}</text>')
 
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-label="说人话 star 增长曲线：开源 {span} 天，0 到 {total} stars，数据截至 {today}">
   <rect x="1" y="1" width="1198" height="388" fill="{PANEL}" stroke="{BORDER}" stroke-width="1.5"/>
   <rect x="1" y="1" width="1198" height="4" fill="{ACCENT}"/>
 
-  <text x="40" y="37" font-family="{MONO}" font-size="11.5" letter-spacing="1" fill="{ACCENT}">SIGNAL GROWTH / GITHUB</text>
+  <text x="40" y="37" font-family="{MONO}" font-size="13" letter-spacing="1" fill="{ACCENT}">SIGNAL GROWTH / GITHUB</text>
   <text x="40" y="73" font-family="{SANS}" font-size="25" font-weight="700" fill="{INK}">「说人话」star 增长</text>
-  <text x="40" y="98" font-family="{MONO}" font-size="12.5" fill="{MUTED}">开源 {span} 天 · 0 → {total} · 数据截至 {today}</text>
+  <text x="40" y="98" font-family="{MONO}" font-size="15" fill="{MUTED}">开源 {span} 天 · 0 → {total} · 数据截至 {today}</text>
   <text x="1150" y="75" font-family="{MONO}" font-size="43" font-weight="700" fill="{ACCENT}" text-anchor="end">{total}</text>
-  <text x="1150" y="98" font-family="{MONO}" font-size="11.5" letter-spacing="1" fill="{MUTED}" text-anchor="end">STARGAZERS</text>
+  <text x="1150" y="98" font-family="{MONO}" font-size="13" letter-spacing="1" fill="{MUTED}" text-anchor="end">STARGAZERS</text>
   <line x1="40" y1="112" x2="1160" y2="112" stroke="{BORDER}" stroke-width="1"/>
 
   <g stroke="{GRID}" stroke-width="1">
     {''.join(gridlines)}
     <line x1="{X0}" y1="{Y0}" x2="{X1}" y2="{Y0}" stroke="{BASELINE}" stroke-width="1.5"/>
   </g>
-  <g font-family="{MONO}" font-size="11.5" fill="{MUTED}" text-anchor="end">
+  <g font-family="{MONO}" font-size="14" fill="{MUTED}" text-anchor="end">
     {''.join(ylabels)}
   </g>
-  <g font-family="{MONO}" font-size="11.5" fill="{MUTED}" text-anchor="middle">
+  <g font-family="{MONO}" font-size="14" fill="{MUTED}" text-anchor="middle">
     {''.join(xticks)}
   </g>
 

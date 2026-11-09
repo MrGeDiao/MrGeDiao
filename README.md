@@ -10,7 +10,7 @@ Ex-ByteDance AI product manager, now building and maintaining my own AI tools. I
 
 <table>
   <tr>
-    <td width="50%" valign="top">
+    <td width="50%" valign="middle">
       <img src="https://skillicons.dev/icons?i=python,ts,bash,nodejs,sqlite,postgres,docker,linux,githubactions&theme=light" alt="技术栈">
       <br>
       <sub>Claude Code · Codex · DeepSeek Harness · Grok CLI · Antigravity · MCP</sub>

@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-label="MrGeDiao · 前字节 AI 产品经理，现在自己写 AI 工具，也做企业 AI 落地咨询">
   <rect x="1" y="1" width="1198" height="428" fill="#F7F8F5" stroke="#D7DCE2" stroke-width="1.5"/>
   <rect x="40" y="25" width="10" height="10" fill="#246BFD"/>
-  <g font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', 'Cascadia Code', monospace" font-size="12" letter-spacing="0.8">
+  <g font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', 'Cascadia Code', monospace" font-size="13" letter-spacing="0.8">
     <text x="62" y="35" fill="#101318" font-weight="700">SIGNAL INDEX</text>
-    <text x="166" y="35" fill="#929AA5">/ PERSONAL EDITION</text>
+    <text x="174" y="35" fill="#929AA5">/ PERSONAL EDITION</text>
     <text x="1160" y="35" fill="#66707C" text-anchor="end">PRODUCT · CODE · CONSULTING</text>
   </g>
   <line x1="40" y1="54" x2="1160" y2="54" stroke="#D7DCE2"/>
@@ -12,7 +12,7 @@
 
   <text x="42" y="145" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'PingFang SC', 'Segoe UI', sans-serif" font-size="78" font-weight="760" letter-spacing="-2.5" fill="#101318">MrGeDiao</text>
   <text x="42" y="198" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'PingFang SC', 'Segoe UI', sans-serif" font-size="31" font-weight="720" letter-spacing="0.2" fill="#101318">前字节 AI 产品经理，现在自己写 AI 工具</text>
-  <text x="42" y="232" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'PingFang SC', 'Segoe UI', sans-serif" font-size="16" fill="#66707C">从需求一路做到代码、上线和维护；也给中小企业做 AI 落地咨询。</text>
+  <text x="42" y="232" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'PingFang SC', 'Segoe UI', sans-serif" font-size="19" fill="#66707C">从需求一路做到代码、上线和维护；也给中小企业做 AI 落地咨询。</text>
   <line x1="42" y1="260" x2="790" y2="260" stroke="#AEB5BF"/>
 
   <!-- Tabler Icons, MIT -->
@@ -27,29 +27,29 @@
       <path d="M3 9a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"/><path d="M8 7v-2a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v2"/><path d="M12 12l0 .01"/><path d="M3 13a20 20 0 0 0 18 0"/>
     </g>
   </g>
-  <g font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', monospace" font-size="11" letter-spacing="0.5" fill="#246BFD">
+  <g font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', monospace" font-size="13" letter-spacing="0.5" fill="#246BFD">
     <text x="82" y="302">BACKGROUND</text><text x="340" y="302">NOW</text><text x="598" y="302">CONSULTING</text>
   </g>
-  <g font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'PingFang SC', 'Segoe UI', sans-serif" font-size="14.5" fill="#101318">
-    <text x="82" y="330">产品经理出身</text>
-    <text x="82" y="353" fill="#66707C">先想清楚要解决什么</text>
-    <text x="340" y="330">自己写代码做 AI 工具</text>
-    <text x="340" y="353" fill="#66707C">上线以后自己维护</text>
-    <text x="598" y="330">企业 AI 落地咨询</text>
-    <text x="598" y="353" fill="#66707C">先看流程，再选场景</text>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'PingFang SC', 'Segoe UI', sans-serif" font-size="17" fill="#101318">
+    <text x="82" y="331">产品经理出身</text>
+    <text x="82" y="358" fill="#66707C">先想清楚要解决什么</text>
+    <text x="340" y="331">自己写代码做 AI 工具</text>
+    <text x="340" y="358" fill="#66707C">上线以后自己维护</text>
+    <text x="598" y="331">企业 AI 落地咨询</text>
+    <text x="598" y="358" fill="#66707C">先看流程，再选场景</text>
   </g>
 
-  <text x="856" y="86" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', monospace" font-size="11" letter-spacing="1" fill="#246BFD">NOW / 现在在做</text>
-  <g font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', monospace" font-size="13" fill="#246BFD">
+  <text x="856" y="86" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', monospace" font-size="13" letter-spacing="1" fill="#246BFD">NOW / 现在在做</text>
+  <g font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', monospace" font-size="15" fill="#246BFD">
     <text x="856" y="122">01</text><text x="856" y="162">02</text><text x="856" y="202">03</text><text x="856" y="242">04</text>
   </g>
-  <g font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'PingFang SC', 'Segoe UI', sans-serif" font-size="15" fill="#101318">
+  <g font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'PingFang SC', 'Segoe UI', sans-serif" font-size="18" fill="#101318">
     <text x="892" y="122">说人话</text>
     <text x="892" y="162">多 agent 协作</text>
     <text x="892" y="202">模型实测</text>
     <text x="892" y="242">X 编辑台</text>
   </g>
-  <g font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', monospace" font-size="10" letter-spacing="0.5" fill="#929AA5" text-anchor="end">
+  <g font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', monospace" font-size="12" letter-spacing="0.5" fill="#929AA5" text-anchor="end">
     <text x="1160" y="122">OPEN SOURCE</text>
     <text x="1160" y="162">SANTI</text>
     <text x="1160" y="202">ZHENHUO</text>
@@ -64,6 +64,6 @@
 
   <rect x="856" y="282" width="304" height="88" fill="#FFFFFF" stroke="#AEB5BF"/>
   <rect x="856" y="282" width="304" height="4" fill="#246BFD"/>
-  <text x="1008" y="322" text-anchor="middle" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', monospace" font-size="15" font-weight="700" fill="#246BFD">zcoeus@protonmail.com</text>
-  <text x="1008" y="348" text-anchor="middle" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', monospace" font-size="10.5" letter-spacing="0.6" fill="#929AA5">CONTACT</text>
+  <text x="1008" y="322" text-anchor="middle" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', monospace" font-size="17" font-weight="700" fill="#246BFD">zcoeus@protonmail.com</text>
+  <text x="1008" y="348" text-anchor="middle" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', monospace" font-size="12" letter-spacing="0.6" fill="#929AA5">CONTACT</text>
 </svg>
