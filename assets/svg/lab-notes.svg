@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="其他在做的：santi、model-forensics、x-pipeline、DreamMem 四个私有项目，以及开源的 paper-reading-zh">
-  <rect x="1" y="1" width="1198" height="558" fill="#F7F8F5" stroke="#D7DCE2" stroke-width="1.5"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="472" viewBox="0 0 1200 472" role="img" aria-label="现在还在做：santi、真活、realzoeus 三个私有项目，以及开源的 paper-reading-zh">
+  <rect x="1" y="1" width="1198" height="470" fill="#F7F8F5" stroke="#D7DCE2" stroke-width="1.5"/>
   <rect x="40" y="25" width="9" height="9" fill="#246BFD"/>
-  <text x="62" y="35" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'PingFang SC', 'Segoe UI', sans-serif" font-size="21" font-weight="720" fill="#101318">其他在做的</text>
-  <text x="187" y="35" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', monospace" font-size="10.5" letter-spacing="0.7" fill="#929AA5">OTHER WORK</text>
-  <text x="1160" y="35" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'PingFang SC', 'Segoe UI', sans-serif" font-size="13" fill="#66707C">前四个是私有仓库，写的是已经在跑的部分。</text>
+  <text x="62" y="35" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'PingFang SC', 'Segoe UI', sans-serif" font-size="21" font-weight="720" fill="#101318">现在还在做</text>
+  <text x="187" y="35" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', monospace" font-size="10.5" letter-spacing="0.7" fill="#929AA5">ACTIVE WORK</text>
+  <text x="1160" y="35" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'PingFang SC', 'Segoe UI', sans-serif" font-size="13" fill="#66707C">前三个是私有仓库，写的是已经在跑的部分。</text>
   <line x1="40" y1="54" x2="1160" y2="54" stroke="#AEB5BF"/>
 
   <g font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', monospace" font-size="10.5" letter-spacing="0.7" fill="#246BFD">
@@ -15,51 +15,45 @@
   </g>
   <line x1="40" y1="91" x2="1160" y2="91" stroke="#AEB5BF"/>
   <g stroke="#D7DCE2">
-    <line x1="100" y1="54" x2="100" y2="531"/>
-    <line x1="310" y1="54" x2="310" y2="531"/>
-    <line x1="610" y1="54" x2="610" y2="531"/>
-    <line x1="910" y1="54" x2="910" y2="531"/>
+    <line x1="100" y1="54" x2="100" y2="443"/>
+    <line x1="310" y1="54" x2="310" y2="443"/>
+    <line x1="610" y1="54" x2="610" y2="443"/>
+    <line x1="910" y1="54" x2="910" y2="443"/>
     <line x1="40" y1="179" x2="1160" y2="179"/>
     <line x1="40" y1="267" x2="1160" y2="267"/>
     <line x1="40" y1="355" x2="1160" y2="355"/>
     <line x1="40" y1="443" x2="1160" y2="443"/>
-    <line x1="40" y1="531" x2="1160" y2="531"/>
   </g>
 
   <g font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', monospace" fill="#246BFD" font-size="27" font-weight="650">
-    <text x="42" y="138">01</text><text x="42" y="226">02</text><text x="42" y="314">03</text><text x="42" y="402">04</text><text x="42" y="490">05</text>
+    <text x="42" y="138">01</text><text x="42" y="226">02</text><text x="42" y="314">03</text><text x="42" y="402">04</text>
   </g>
 
   <g font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', monospace" fill="#101318" font-size="15" font-weight="700">
     <text x="112" y="121">santi</text>
-    <text x="112" y="209">model-forensics</text>
-    <text x="112" y="297">x-pipeline</text>
-    <text x="112" y="385">DreamMem</text>
-    <text x="112" y="473">paper-reading-zh</text>
+    <text x="112" y="209">zhenhuo</text>
+    <text x="112" y="297">realzoeus</text>
+    <text x="112" y="385">paper-reading-zh</text>
   </g>
   <g font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', monospace" font-size="10.5" fill="#246BFD">
-    <text x="112" y="146">多模型协作</text><text x="112" y="234">模型取证</text><text x="112" y="322">内容流水线</text><text x="112" y="410">记忆与文件</text><text x="112" y="498">开源 · 论文精读</text>
+    <text x="112" y="146">多模型协作</text><text x="112" y="234">真活 · 模型实测</text><text x="112" y="322">X 编辑台</text><text x="112" y="410">开源 · 论文精读</text>
   </g>
 
   <g font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'PingFang SC', 'Segoe UI', sans-serif" font-size="13.7" fill="#101318">
-    <text x="322" y="119">让 Codex、Claude Code 和 Grok 分工</text><text x="322" y="143">协作，每件事都有明确的负责方。</text>
-    <text x="622" y="119">Codex 唯一写入；另外两个只给建议；</text><text x="622" y="143">每轮核验实际用了哪个模型并留记录。</text>
-    <text x="922" y="119">不拿 agent 共识代替测试；</text><text x="922" y="143">顾问不能直接改项目文件。</text>
+    <text x="322" y="119">Opus 只做判断，Codex、DeepSeek、</text><text x="322" y="143">Grok、Agy 当 worker，按任务挑模型。</text>
+    <text x="622" y="119">每个写入 job 一个 worktree；审查必须跨</text><text x="622" y="143">模型家族；逐次核验实际用了哪个模型。</text>
+    <text x="922" y="119">agent 一致不算数，测试说了算；</text><text x="922" y="143">模型家族不对的 pass 不计入签发。</text>
 
-    <text x="322" y="207">核对 CLI 请求的模型，与实际执行的</text><text x="322" y="231">模型是否一致。</text>
-    <text x="622" y="207">扫描本地会话工件和代理日志，按</text><text x="622" y="231">E0–E4 分级，生成带哈希的回执。</text>
-    <text x="922" y="207">本地优先，只检测和报告；</text><text x="922" y="231">统计判断带置信度，不冒充定论。</text>
+    <text x="322" y="207">新模型发布当天，用固定的真实任务</text><text x="322" y="231">测正确率、速度和每题成本。</text>
+    <text x="622" y="207">隐藏测试判代码题，程序查改写事实；</text><text x="622" y="231">6 道修 bug 题取自真实修复提交。</text>
+    <text x="922" y="207">不做综合排行榜；题目和 KEY</text><text x="922" y="231">不公开，公开结果时附原始输出。</text>
 
-    <text x="322" y="295">从 X List 选题，三稿起草、评审、</text><text x="322" y="319">去 AI 味，每天三次推候选稿到飞书。</text>
-    <text x="622" y="295">LLM 选题闸 + 确定性校验 + 人工反馈，</text><text x="622" y="319">每周汇总发布率和废稿原因。</text>
-    <text x="922" y="295">永不自动发推；发布决定和动作</text><text x="922" y="319">始终在人这一侧。</text>
+    <text x="322" y="295">维护 @realzoeus 的编辑台：帖子</text><text x="322" y="319">我自己写，Claude 当编辑和研究助理。</text>
+    <text x="622" y="295">定时脚本只读 X，把热帖、提及和数据</text><text x="622" y="319">推到飞书，附备选回复草稿。</text>
+    <text x="922" y="295">不替我发帖、回帖、点赞、关注、</text><text x="922" y="319">私信；发不发都由我决定。</text>
 
-    <text x="322" y="383">让 coding agent 记住长期有效的信息，</text><text x="322" y="407">而不是把全部对话塞进黑盒。</text>
-    <text x="622" y="383">Markdown / YAML 是事实来源；候选记忆</text><text x="622" y="407">经过 review，再进入长期记忆和检索。</text>
-    <text x="922" y="383">不自动永久记忆；SQLite 只是</text><text x="922" y="407">派生索引，可以从源文件重建。</text>
-
-    <text x="322" y="471">给 AI 读论文立证据规则，</text><text x="322" y="495">支持 Codex、Claude Code 和网页端项目。</text>
-    <text x="622" y="471">没核验的写「未核验」；实验数字</text><text x="622" y="495">锚定原文 Table / Figure 或段落。</text>
-    <text x="922" y="471">读不到的不编；比较多篇论文</text><text x="922" y="495">前先对齐数据集和指标。</text>
+    <text x="322" y="383">给 AI 读论文立证据规则，</text><text x="322" y="407">支持 Codex、Claude Code 和网页端项目。</text>
+    <text x="622" y="383">没核验的写「未核验」；实验数字</text><text x="622" y="407">锚定原文 Table / Figure 或段落。</text>
+    <text x="922" y="383">读不到的不编；比较多篇论文</text><text x="922" y="407">前先对齐数据集和指标。</text>
   </g>
 </svg>

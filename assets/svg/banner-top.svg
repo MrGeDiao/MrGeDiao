@@ -46,14 +46,14 @@
   <g font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'PingFang SC', 'Segoe UI', sans-serif" font-size="15" fill="#101318">
     <text x="892" y="122">说人话</text>
     <text x="892" y="162">多 agent 协作</text>
-    <text x="892" y="202">模型取证</text>
-    <text x="892" y="242">企业 AI 落地咨询</text>
+    <text x="892" y="202">模型实测</text>
+    <text x="892" y="242">X 编辑台</text>
   </g>
   <g font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', monospace" font-size="10" letter-spacing="0.5" fill="#929AA5" text-anchor="end">
     <text x="1160" y="122">OPEN SOURCE</text>
     <text x="1160" y="162">SANTI</text>
-    <text x="1160" y="202">FORENSICS</text>
-    <text x="1160" y="242">CONSULTING</text>
+    <text x="1160" y="202">ZHENHUO</text>
+    <text x="1160" y="242">REALZOEUS</text>
   </g>
   <g stroke="#D7DCE2">
     <line x1="856" y1="134" x2="1160" y2="134"/>

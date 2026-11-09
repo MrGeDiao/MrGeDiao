@@ -37,10 +37,10 @@
     <text x="612" y="155">release note、issue 等场景</text>
     <text x="612" y="181">处理套话和语域错位。</text>
 
-    <text x="842" y="103">123 条评测用例、20 条</text>
-    <text x="842" y="129">场景样本，发版前回归。</text>
-    <text x="842" y="155">x-pipeline 每天用它</text>
-    <text x="842" y="181">处理真实候选稿。</text>
+    <text x="842" y="103">123 条评测用例，</text>
+    <text x="842" y="129">发版前全部回归。</text>
+    <text x="842" y="155">58 条没问题的文本，</text>
+    <text x="842" y="181">一条没被改坏。</text>
 
     <text x="1030" y="103">Codex</text>
     <text x="1030" y="129">Claude Code</text>
